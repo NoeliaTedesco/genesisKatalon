@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Testing</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Pagina de intranet</description>
+      <initValue>'https://test.intranet.osde/IV3/'</initValue>
+      <name>G_Intranet</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>G_TimeOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SS36739794'</initValue>
+      <name>G_Usser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'intranet08'</initValue>
+      <name>G_Pass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'suaPortal'</initValue>
+      <name>G_OpcionPortal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'SERVICIOS'</initValue>
+      <name>G_CarpetaServicio</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_SubcarpetaServicio</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'</initValue>
+      <name>G_Portal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Genesis Cobertura'</initValue>
+      <name>G_Servicio</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

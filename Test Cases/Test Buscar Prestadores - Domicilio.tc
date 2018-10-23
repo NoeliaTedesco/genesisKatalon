@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Buscar Prestadores - Domicilio</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d98955c4-9e0b-40b4-8b15-42347c0d2d32</testCaseGuid>
+   <variable>
+      <defaultValue>'62477460001'</defaultValue>
+      <description></description>
+      <id>b2b0bd11-7bc4-485e-828d-14e3d23f26b9</id>
+      <masked>false</masked>
+      <name>nroSocio</name>
+   </variable>
+   <variable>
+      <defaultValue>'250102'</defaultValue>
+      <description></description>
+      <id>6bdfa6f9-c9d1-40bb-a10a-0c29763e9207</id>
+      <masked>false</masked>
+      <name>busqPrestacion</name>
+   </variable>
+   <variable>
+      <defaultValue>'A'</defaultValue>
+      <description></description>
+      <id>4d64d447-9d54-49fa-bbc4-89392be78582</id>
+      <masked>false</masked>
+      <name>contexto</name>
+   </variable>
+   <variable>
+      <defaultValue>'SANTA FE'</defaultValue>
+      <description></description>
+      <id>18119fb0-87d2-40af-880f-d70bbc09667d</id>
+      <masked>false</masked>
+      <name>provincia</name>
+   </variable>
+   <variable>
+      <defaultValue>'ROSARIO'</defaultValue>
+      <description></description>
+      <id>c893205c-fc2f-43b8-af0b-e37a800e59da</id>
+      <masked>false</masked>
+      <name>localidad</name>
+   </variable>
+   <variable>
+      <defaultValue>'ITALIA'</defaultValue>
+      <description></description>
+      <id>c6b8f2e2-b89e-4e55-97df-030130f7b64a</id>
+      <masked>false</masked>
+      <name>calle</name>
+   </variable>
+   <variable>
+      <defaultValue>'440'</defaultValue>
+      <description></description>
+      <id>3619953c-60ef-44f6-b439-f774059134e6</id>
+      <masked>false</masked>
+      <name>altura</name>
+   </variable>
+   <variable>
+      <defaultValue>'250102 - KINESIOTERAPIA'</defaultValue>
+      <description></description>
+      <id>3d05fafd-c08f-4c3e-a7bd-07a4264a12fc</id>
+      <masked>false</masked>
+      <name>prestacionAutocomplete1</name>
+   </variable>
+</TestCaseEntity>
