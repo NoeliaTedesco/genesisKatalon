@@ -62,7 +62,7 @@ public class GlobalVariable {
     static {
         def allVariables = [:]        
         allVariables.put('default', [:])
-        allVariables.put('Testing', allVariables['default'] + ['G_Intranet' : 'https://test.intranet.osde/IV3/', 'G_TimeOut' : 10, 'G_Usser' : 'SS36739794', 'G_Pass' : 'intranet08', 'G_OpcionPortal' : 'suaPortal', 'G_CarpetaServicio' : 'SERVICIOS', 'G_SubcarpetaServicio' : '', 'G_Portal' : 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do', 'G_Servicio' : 'Genesis Cobertura'])
+        allVariables.put('Testing', allVariables['default'] + ['G_Intranet' : 'https://test.intranet.osde/IV3/', 'G_TimeOut' : 10, 'G_Usser' : 'SS36739794', 'G_Pass' : 'intranet09', 'G_OpcionPortal' : 'suaPortal', 'G_CarpetaServicio' : 'SERVICIOS', 'G_SubcarpetaServicio' : '', 'G_Portal' : 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do', 'G_Servicio' : 'Genesis Cobertura'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         

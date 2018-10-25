@@ -61,4 +61,11 @@
       <masked>false</masked>
       <name>prestacionAutocomplete1</name>
    </variable>
+   <variable>
+      <defaultValue>'ntedesco@sms-latam.com'</defaultValue>
+      <description></description>
+      <id>8f601133-8f95-4718-97c5-7109f596c4df</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
 </TestCaseEntity>

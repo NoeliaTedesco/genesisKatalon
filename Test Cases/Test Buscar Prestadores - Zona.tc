@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Buscar Prestadores - Zona</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c82ee20b-ab6c-49a7-8380-36fbc8c2bc61</testCaseGuid>
+   <variable>
+      <defaultValue>'62477460001'</defaultValue>
+      <description></description>
+      <id>fe2007ed-3fc0-4944-ac09-cba0d4524510</id>
+      <masked>false</masked>
+      <name>nroSocio</name>
+   </variable>
+   <variable>
+      <defaultValue>'250102'</defaultValue>
+      <description></description>
+      <id>4c94849b-5f40-4051-a875-3b5eca25578c</id>
+      <masked>false</masked>
+      <name>busqPrestacion</name>
+   </variable>
+   <variable>
+      <defaultValue>'A'</defaultValue>
+      <description></description>
+      <id>53504618-fa8c-4cb6-9ac4-44d1cec09ce5</id>
+      <masked>false</masked>
+      <name>contexto</name>
+   </variable>
+   <variable>
+      <defaultValue>'23'</defaultValue>
+      <description></description>
+      <id>a1c6cf80-a181-41d5-95a7-62886f13e6c7</id>
+      <masked>false</masked>
+      <name>filial</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>4d821392-3531-4f78-975a-a711b08bb80c</id>
+      <masked>false</masked>
+      <name>zona</name>
+   </variable>
+   <variable>
+      <defaultValue>'215-186'</defaultValue>
+      <description></description>
+      <id>ea387061-4165-4073-9388-3c9d2186bc84</id>
+      <masked>false</masked>
+      <name>subzona</name>
+   </variable>
+   <variable>
+      <defaultValue>'ntedesco@sms-latam.com'</defaultValue>
+      <description></description>
+      <id>394317c5-7a5c-41d3-b363-a27e9ee1ea82</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

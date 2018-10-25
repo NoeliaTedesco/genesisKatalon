@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Zona</name>
+   <name>span_InfoPrestacion</name>
    <tag></tag>
-   <elementGuidId>35f7deae-6200-4f0c-ae54-a12ecd9061a5</elementGuidId>
+   <elementGuidId>ed77223c-9ecf-4bc9-a424-6b2db443b914</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[(text() = 'Zona' or . = 'Zona') and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='divBusquedaPrestacion']/div[2]/div/div[2]</value>
+         <value>//div[@id='resultadoPrestacion']/div/div/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,35 +17,21 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>criterioBusqueda btnZona optionButton</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>show</name>
-      <type>Main</type>
-      <value>#busquedaZona</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Zona</value>
+      <value>255060 - Ambulatorio - SESION TERAPIA OCUPACIONAL</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;divBusquedaPrestacion&quot;)/div[@class=&quot;bloqueContenidoBody&quot;]/div[1]/div[@class=&quot;criterioBusqueda btnZona optionButton&quot;]</value>
+      <value>id(&quot;resultadoPrestacion&quot;)/div[@class=&quot;resultadoPrestaciones&quot;]/div[@class=&quot;itemView&quot;]/div[@class=&quot;bloqueContenido&quot;]/div[@class=&quot;bloqueContenidoHeader&quot;]/span[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,36 +44,30 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='divBusquedaPrestacion']/div[2]/div/div[2]</value>
+      <value>//div[@id='resultadoPrestacion']/div/div/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Domicilio'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Corte de Servicio: NO'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prestadores'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Validación en linea: NO'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prestador'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Domicilio'])[2]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargando...'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[4]/div[2]/div/div[2]</value>
+      <value>//div[2]/div[2]/div/div/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'intranet08'</initValue>
+      <initValue>'intranet09'</initValue>
       <name>G_Pass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

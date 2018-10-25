@@ -82,31 +82,23 @@ selectOptionAutocomplete()
 
 WebUI.selectOptionByValue(findTestObject('Servicio/select_Contexto'), contexto, false)
 
-WebUI.click(findTestObject('Servicio/btnEditarDomicilio'))
+ //AGREGAR PASOS PARA INGRESAR A FILIAL  / ZONA / SUBZONA
 
-WebUI.waitForElementPresent(findTestObject('Servicio/select_Provincia'), 20)
+WebUI.click(findTestObject('Servicio/div_Zona'))
 
-WebUI.selectOptionByValue(findTestObject('Servicio/select_Provincia'), provincia, false)
+WebUI.waitForElementClickable(findTestObject("Servicio/select_Filial_Zona"), 10)
 
-WebUI.sendKeys(findTestObject('Servicio/input_Localidad'), localidad)
+WebUI.selectOptionByValue(findTestObject('Servicio/select_Filial_Zona'), filial, false)
 
-Thread.sleep(3000)
+Thread.sleep(2000)
 
-WebUI.sendKeys(findTestObject('Servicio/input_Localidad'), Keys.chord(Keys.TAB))
+WebUI.selectOptionByValue(findTestObject('Servicio/select_Zona'), zona, false)
 
-WebUI.sendKeys(findTestObject('Servicio/input_Calle'), calle)
+Thread.sleep(2000)
 
-Thread.sleep(3000)
+WebUI.selectOptionByValue(findTestObject('Servicio/select_SubZona'), subzona, false)
 
-WebUI.sendKeys(findTestObject('Servicio/input_Calle'), Keys.chord(Keys.TAB))
-
-Thread.sleep(3000)
-
-WebUI.sendKeys(findTestObject('Servicio/input_Altura'), altura)
-
-WebUI.click(findTestObject('Servicio/btnSeleccionar'))
-
-Thread.sleep(3000)
+Thread.sleep(1000)
 
 WebUI.click(findTestObject('Servicio/btnBuscar'))
 
@@ -116,9 +108,9 @@ WebUI.click(findTestObject('Servicio/check_ResultadoListado'))
 
 WebUI.click(findTestObject('Servicio/btnRegistrar'))
 
-WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarDomicilio'), 20)
+WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarZona'), 20)
 
-WebUI.click(findTestObject('Servicio/btnCerrarDomicilio'))
+WebUI.click(findTestObject('Servicio/btnCerrarZona'))
 
 WebUI.click(findTestObject('Servicio/btnEnviarCorreo'))
 
