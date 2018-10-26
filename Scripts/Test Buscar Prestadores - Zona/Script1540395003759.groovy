@@ -110,7 +110,11 @@ WebUI.click(findTestObject('Servicio/btnRegistrar'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarZona'), 20)
 
+Thread.sleep(3000)
+
 WebUI.click(findTestObject('Servicio/btnCerrarZona'))
+
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('Servicio/btnEnviarCorreo'))
 
@@ -118,7 +122,7 @@ WebUI.waitForElementPresent(findTestObject('Servicio/input_Correo'), 20)
 
 WebUI.sendKeys(findTestObject('Servicio/input_Correo'), email)
 
-WebUI.click(findTestObject('Servicio/btnEnviar'))
+WebUI.click(findTestObject('Servicio/btnEnviarZona'))
 
 Thread.sleep(3000)
 
@@ -126,11 +130,15 @@ WebUI.waitForElementClickable(findTestObject('Servicio/btnImprimir'), 20)
 
 WebUI.click(findTestObject('Servicio/btnImprimir'))
 
-WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarPopUpPdf'), 20)
+WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarPopUpPdfZona'), 20)
 
-WebUI.click(findTestObject('Servicio/btnCerrarPopUpPdf'))
+Thread.sleep(3000)
+
+WebUI.click(findTestObject('Servicio/btnCerrarPopUpPdfZona'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/div_InfoPrestacion'), 20)
+
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('Servicio/div_InfoPrestacion'))
 
@@ -141,6 +149,8 @@ WebUI.click(findTestObject('Servicio/span_InfoPrestacion'))
 verificarCargaInformacion()
 
 WebUI.click(findTestObject('Servicio/btnVolver'))
+
+tearDown()
 
 void verificarCargaInformacion() {
     try {
@@ -227,3 +237,7 @@ boolean abrirServicio(String NombreServicio, WebDriver driver) {
         return false
     } 
 }
+
+public void tearDown() throws Exception {
+	WebUI.closeBrowser()
+  }

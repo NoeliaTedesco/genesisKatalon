@@ -6,11 +6,15 @@
    <elementGuidId>ac6cfa72-7c5a-4b2a-895b-dd30c8a925dd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;prestacionesSelector&quot;)/div[1]/div[@class=&quot;elemento input-prestacion validate params&quot;]/div[1]/input[@class=&quot;ui-autocomplete-input&quot;][count(. | //input[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//input[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='prestacionesSelector']/div/div/div/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

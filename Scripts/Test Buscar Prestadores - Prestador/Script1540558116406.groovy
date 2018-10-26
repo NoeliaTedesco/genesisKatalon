@@ -82,31 +82,25 @@ selectOptionAutocomplete()
 
 WebUI.selectOptionByValue(findTestObject('Servicio/select_Contexto'), contexto, false)
 
-WebUI.click(findTestObject('Servicio/btnEditarDomicilio'))
+WebUI.click(findTestObject('Servicio/div_Prestador'))
 
-WebUI.waitForElementPresent(findTestObject('Servicio/select_Provincia'), 20)
+WebUI.waitForElementClickable(findTestObject('Servicio/select_Filial_Prestador'), 10)
 
-WebUI.selectOptionByValue(findTestObject('Servicio/select_Provincia'), provincia, false)
+WebUI.selectOptionByValue(findTestObject('Servicio/select_Filial_Prestador'), filial, false)
 
-WebUI.sendKeys(findTestObject('Servicio/input_Localidad'), localidad)
+Thread.sleep(2000)
 
-Thread.sleep(3000)
+WebUI.waitForElementClickable(findTestObject('Servicio/select_Filial_Prestador'), 20)
 
-WebUI.sendKeys(findTestObject('Servicio/input_Localidad'), Keys.chord(Keys.TAB))
+WebUI.click(findTestObject('Servicio/input_Prestador'))
 
-WebUI.sendKeys(findTestObject('Servicio/input_Calle'), calle)
+WebUI.clearText(findTestObject('Servicio/input_Prestador'))
 
-Thread.sleep(3000)
+WebUI.sendKeys(findTestObject('Servicio/input_Prestador'), prestador)
 
-WebUI.sendKeys(findTestObject('Servicio/input_Calle'), Keys.chord(Keys.TAB))
+Thread.sleep(2000)
 
-Thread.sleep(3000)
-
-WebUI.sendKeys(findTestObject('Servicio/input_Altura'), altura)
-
-WebUI.click(findTestObject('Servicio/btnSeleccionar'))
-
-Thread.sleep(3000)
+WebUI.click(findTestObject('Servicio/autocomplete_inputPrestador'))
 
 WebUI.click(findTestObject('Servicio/btnBuscar'))
 
@@ -116,11 +110,13 @@ WebUI.click(findTestObject('Servicio/check_ResultadoListado'))
 
 WebUI.click(findTestObject('Servicio/btnRegistrar'))
 
-WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarDomicilio'), 20)
+WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarZona'), 20)
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('Servicio/btnCerrarDomicilio'))
+WebUI.click(findTestObject('Servicio/btnCerrarZona'))
+
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('Servicio/btnEnviarCorreo'))
 
@@ -128,7 +124,7 @@ WebUI.waitForElementPresent(findTestObject('Servicio/input_Correo'), 20)
 
 WebUI.sendKeys(findTestObject('Servicio/input_Correo'), email)
 
-WebUI.click(findTestObject('Servicio/btnEnviar'))
+WebUI.click(findTestObject('Servicio/btnEnviarZona'))
 
 Thread.sleep(3000)
 
@@ -136,15 +132,15 @@ WebUI.waitForElementClickable(findTestObject('Servicio/btnImprimir'), 20)
 
 WebUI.click(findTestObject('Servicio/btnImprimir'))
 
-WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarPopUpPdf'), 20)
+WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarPopUpPdfPrestador'), 20)
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('Servicio/btnCerrarPopUpPdf'))
+WebUI.click(findTestObject('Servicio/btnCerrarPopUpPdfZona'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/div_InfoPrestacion'), 20)
 
-Thread.sleep(3000)
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('Servicio/div_InfoPrestacion'))
 
@@ -161,7 +157,8 @@ tearDown()
 void verificarCargaInformacion() {
     try {
         WebUI.waitForElementPresent(findTestObject('Servicio/form_InformacionPrestacion'), 30)
-		System.out.println("Se carga correctamente formulario de prestacion")
+
+        System.out.println('Se carga correctamente formulario de prestacion')
     }
     catch (Exception e) {
         System.out.println('No se recuera información de la prestación')
@@ -244,6 +241,7 @@ boolean abrirServicio(String NombreServicio, WebDriver driver) {
     } 
 }
 
-void tearDown() throws Exception {
-  WebUI.closeBrowser()
-}
+public void tearDown() throws Exception {
+	WebUI.closeBrowser()
+  }
+

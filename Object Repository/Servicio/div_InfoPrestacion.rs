@@ -6,14 +6,18 @@
    <elementGuidId>07c7230b-d2dd-4951-8b9c-d6a71dfc9b47</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btnPrestacion' and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='btnPrestacion']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>btnPrestacion</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

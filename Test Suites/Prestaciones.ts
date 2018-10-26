@@ -4,7 +4,7 @@
    <name>Prestaciones</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-19T14:46:23</lastRun>
+   <lastRun>2018-10-26T11:56:08</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -69,6 +69,96 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>8f601133-8f95-4718-97c5-7109f596c4df</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>37c01a3a-139b-4b2e-bebe-515d41a8241e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Buscar Prestadores - Zona</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fe2007ed-3fc0-4944-ac09-cba0d4524510</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c94849b-5f40-4051-a875-3b5eca25578c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>53504618-fa8c-4cb6-9ac4-44d1cec09ce5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a1c6cf80-a181-41d5-95a7-62886f13e6c7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4d821392-3531-4f78-975a-a711b08bb80c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea387061-4165-4073-9388-3c9d2186bc84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>394317c5-7a5c-41d3-b363-a27e9ee1ea82</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67ed5116-38f0-4e2f-99ad-a42917f0ea59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Buscar Prestadores - Prestador</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8bea1d03-adf1-4755-bfd7-15c0b0a2b899</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>25e68a50-793e-42e4-baf7-07c9705f6488</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>efeebafa-c72c-45dd-8867-7afe54b1a4bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>98c35fa9-3ccc-41bd-aa55-99dfb3b0285a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dc7dba1e-9e2c-4a92-bebf-74b2c7b33beb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c4560e2a-9cfb-4653-b807-9674d89eea63</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

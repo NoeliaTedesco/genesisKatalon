@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnCerrarZona</name>
+   <name>autocomplete_inputPrestador</name>
    <tag></tag>
-   <elementGuidId>2799dbcd-b396-47d5-869c-fdae5a00dc3f</elementGuidId>
+   <elementGuidId>2951f02d-e869-4d95-9fe0-c0a76f6e4ba1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div[3]/div/button[count(. | //*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
+         <value>/html/body/ul[3][count(. | //*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +23,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div[3]/div/button</value>
+      <value>/html/body/ul[3]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

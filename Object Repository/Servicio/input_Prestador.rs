@@ -6,14 +6,18 @@
    <elementGuidId>4524f3e0-fc0e-460a-9c61-fea37337252f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'prestador' and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='prestador']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>notNull ui-autocomplete-input validate</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>

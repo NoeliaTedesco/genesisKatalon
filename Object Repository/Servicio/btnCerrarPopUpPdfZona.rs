@@ -1,55 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Prestador</name>
+   <name>btnCerrarPopUpPdfZona</name>
    <tag></tag>
-   <elementGuidId>8f559912-b4de-477e-90ec-61ed5cbee5bc</elementGuidId>
+   <elementGuidId>5a541bfe-19cd-4367-894c-25c9d68aebde</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'Prestador' or . = 'Prestador') and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']</value>
+         <value>/html/body/div[3]/div[1]/button[count(. | //*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='divBusquedaPrestacion']/div[2]/div/div[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Previsualización del Archivo'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>criterioBusqueda btnPrestador optionButton</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>show</name>
-      <type>Main</type>
-      <value>#busquedaPrestador</value>
+      <value>ui-button-icon-primary ui-icon ui-icon-closethick</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Prestador</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;divBusquedaPrestacion&quot;)/div[@class=&quot;bloqueContenidoBody&quot;]/div[1]/div[@class=&quot;criterioBusqueda btnPrestador optionButton&quot;]</value>
+      <value>/html/body/div[3]/div[1]/button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,37 +47,31 @@
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='divBusquedaPrestacion']/div[2]/div/div[3]</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previsualización del Archivo'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zona'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargando...'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Domicilio'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Domicilio'])[2]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Provincia'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volver'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[4]/div[2]/div/div[3]</value>
+      <value>//button/span</value>
    </webElementXpaths>
 </WebElementEntity>

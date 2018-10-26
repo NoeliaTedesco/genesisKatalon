@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Prestador</name>
+   <name>btnEnviarZona</name>
    <tag></tag>
-   <elementGuidId>8f559912-b4de-477e-90ec-61ed5cbee5bc</elementGuidId>
+   <elementGuidId>5f98c5f4-fb39-42d4-8bde-aa8be8dc461f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'Prestador' or . = 'Prestador') and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']</value>
+         <value>//button[(text() = 'ENVIAR' or . = 'ENVIAR') and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='divBusquedaPrestacion']/div[2]/div/div[3]</value>
+         <value>(//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,35 +21,49 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>criterioBusqueda btnPrestador optionButton</value>
+      <value>ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-state-hover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>show</name>
+      <name>role</name>
       <type>Main</type>
-      <value>#busquedaPrestador</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Prestador</value>
+      <value>ENVIAR</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;divBusquedaPrestacion&quot;)/div[@class=&quot;bloqueContenidoBody&quot;]/div[1]/div[@class=&quot;criterioBusqueda btnPrestador optionButton&quot;]</value>
+      <value>/html/body/div[4]/div[3]/div/button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,37 +75,25 @@
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='divBusquedaPrestacion']/div[2]/div/div[3]</value>
+      <name>xpath:attributes</name>
+      <value>(//button[@type='button'])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zona'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Correo Electrónico'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Domicilio'])[1]/following::div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Domicilio'])[2]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Provincia'])[1]/preceding::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='close'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[4]/div[2]/div/div[3]</value>
+      <value>//div[3]/div/button</value>
    </webElementXpaths>
 </WebElementEntity>
