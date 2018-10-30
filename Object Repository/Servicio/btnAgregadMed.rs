@@ -6,25 +6,25 @@
    <elementGuidId>101585ee-0b2e-438f-9a96-d39b4dd333bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='medicamentosSelector']/img</value>
+         <key>BASIC</key>
+         <value>id(&quot;medicamentosSelector&quot;)/img[@class=&quot;toolsButton&quot;][count(. | //*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//img[@src = '/ccn-frontend/images/usabilidad/iconos_on/plus.png' and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']</value>
+         <key>XPATH</key>
+         <value>//div[@id='medicamentosSelector']/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <value>toolsButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

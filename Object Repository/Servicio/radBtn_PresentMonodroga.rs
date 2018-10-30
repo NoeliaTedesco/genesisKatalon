@@ -7,20 +7,24 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='abmRadio']</value>
+         <value>//*[@id=&quot;DataTables_Table_0&quot;]/tbody/tr[1]/td[2]/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[2]/input[1][count(. | //*[@name = 'abmRadio' and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//*[@name = 'abmRadio' and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>abmRadio</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

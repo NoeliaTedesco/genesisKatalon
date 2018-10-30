@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//select[@name=''])[2]</value>
+         <value>//div[@id='busquedaZona']/table/tbody/tr/td[3]/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

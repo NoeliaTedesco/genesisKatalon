@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ntedesco\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Test Buscar Prestadores - Prestador\\20181026_113254\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ntedesco\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Test Buscar Farmacias - Zona\\20181030_165853\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Test Buscar Prestadores - Prestador', new TestCaseBinding('Test Cases/Test Buscar Prestadores - Prestador',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Test Buscar Farmacias - Zona', new TestCaseBinding('Test Cases/Test Buscar Farmacias - Zona',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -13,14 +13,14 @@
       <name>nroSocio</name>
    </variable>
    <variable>
-      <defaultValue>'250102'</defaultValue>
+      <defaultValue>'110101'</defaultValue>
       <description></description>
       <id>25e68a50-793e-42e4-baf7-07c9705f6488</id>
       <masked>false</masked>
       <name>busqPrestacion</name>
    </variable>
    <variable>
-      <defaultValue>'A'</defaultValue>
+      <defaultValue>'I'</defaultValue>
       <description></description>
       <id>efeebafa-c72c-45dd-8867-7afe54b1a4bd</id>
       <masked>false</masked>

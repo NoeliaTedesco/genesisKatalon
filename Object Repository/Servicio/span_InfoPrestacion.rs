@@ -6,28 +6,32 @@
    <elementGuidId>ed77223c-9ecf-4bc9-a424-6b2db443b914</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;resultadoPrestacion&quot;)/div[@class=&quot;resultadoPrestaciones&quot;]/div[@class=&quot;itemView&quot;]/div[@class=&quot;bloqueContenido&quot;]/div[@class=&quot;bloqueContenidoHeader&quot;]/span[1][count(. | //*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='resultadoPrestacion']/div/div/div/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>255060 - Ambulatorio - SESION TERAPIA OCUPACIONAL</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

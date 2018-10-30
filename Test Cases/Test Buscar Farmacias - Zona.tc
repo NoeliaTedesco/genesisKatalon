@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Buscar Farmacias - Zona</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>037cffed-7a5d-4468-a8e3-82bc18810b63</testCaseGuid>
+   <variable>
+      <defaultValue>'60609272102 '</defaultValue>
+      <description></description>
+      <id>4a6fb2ba-0f12-4ea4-a921-b858c80df608</id>
+      <masked>false</masked>
+      <name>nroSocio</name>
+   </variable>
+   <variable>
+      <defaultValue>'13908'</defaultValue>
+      <description></description>
+      <id>d19541dc-40ec-4469-8cbe-045995c8e26f</id>
+      <masked>false</masked>
+      <name>busqMedicamento</name>
+   </variable>
+   <variable>
+      <defaultValue>'23'</defaultValue>
+      <description></description>
+      <id>8181bfc9-8991-46cc-9a07-0dd45ab8e478</id>
+      <masked>false</masked>
+      <name>filial</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description></description>
+      <id>bf137006-8d71-4f55-99b1-20d879df5456</id>
+      <masked>false</masked>
+      <name>zona</name>
+   </variable>
+   <variable>
+      <defaultValue>'215-186'</defaultValue>
+      <description></description>
+      <id>463f992f-043b-49f2-835b-2fbf94ba2bf7</id>
+      <masked>false</masked>
+      <name>subzona</name>
+   </variable>
+   <variable>
+      <defaultValue>'ntedesco@sms-latam.com'</defaultValue>
+      <description></description>
+      <id>1c7fe35b-394d-452f-946a-51b6dfb21811</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

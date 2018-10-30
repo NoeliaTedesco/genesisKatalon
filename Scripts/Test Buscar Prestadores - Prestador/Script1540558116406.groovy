@@ -80,7 +80,7 @@ WebUI.setText(findTestObject('Servicio/input_Prestaciones'), busqPrestacion)
 
 selectOptionAutocomplete()
 
-WebUI.selectOptionByValue(findTestObject('Servicio/select_Contexto'), contexto, false)
+not_run: WebUI.selectOptionByValue(findTestObject('Servicio/select_Contexto'), contexto, false, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Servicio/div_Prestador'))
 
@@ -98,7 +98,7 @@ WebUI.clearText(findTestObject('Servicio/input_Prestador'))
 
 WebUI.sendKeys(findTestObject('Servicio/input_Prestador'), prestador)
 
-Thread.sleep(2000)
+Thread.sleep(9000)
 
 WebUI.click(findTestObject('Servicio/autocomplete_inputPrestador'))
 
@@ -187,23 +187,8 @@ void verifyIsGenesisCoberturaOpen() {
     } 
 }
 
-boolean isPortalLoad() {
-    try {
-        WebUI.waitForElementClickable(findTestObject('Portal_Home/input_BsquedaDetallada'), 20)
-
-        return true
-    }
-    catch (Exception e) {
-        System.out.println('Portal no se cargo correctamente')
-
-        return false
-    } 
-}
-
 void reloadPortal() {
-    while (isPortalLoad = 'false') {
-        WebUI.refresh()
-    }
+    WebUI.refresh()
 }
 
 void selectOptionAutocomplete() {
@@ -241,7 +226,7 @@ boolean abrirServicio(String NombreServicio, WebDriver driver) {
     } 
 }
 
-public void tearDown() throws Exception {
-	WebUI.closeBrowser()
-  }
+void tearDown() throws Exception {
+    WebUI.closeBrowser()
+}
 

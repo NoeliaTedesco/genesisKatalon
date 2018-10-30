@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[1]/button[count(. | //*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
+         <value>/html/body/div[4]/div[1]/button[count(. | //*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']) = count(//*[@ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[1]/button</value>
+      <value>/html/body/div[4]/div[1]/button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

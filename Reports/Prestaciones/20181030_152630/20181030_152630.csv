@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prestaciones,Chrome 69.0.3497.100,,2018-10-30 15:26:34,2018-10-30 15:27:57,"1m - 23,666s",FAILED
+,,,,,,
+Test Cases/Test Buscar Prestadores - Prestador,Chrome 69.0.3497.100,,2018-10-30 15:26:34,2018-10-30 15:27:56,"1m - 22,021s",FAILED
+openBrowser,Chrome 69.0.3497.100,,2018-10-30 15:26:36,2018-10-30 15:26:41,"5,220s",PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-10-30 15:26:41,2018-10-30 15:26:50,"8,862s",PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-30 15:26:50,2018-10-30 15:26:50,"0,175s",PASSED
+waitForElementClickable,Chrome 69.0.3497.100,,2018-10-30 15:26:50,2018-10-30 15:26:50,"0,279s",PASSED
+setText,Chrome 69.0.3497.100,,2018-10-30 15:26:50,2018-10-30 15:26:51,"0,353s",PASSED
+setText,Chrome 69.0.3497.100,,2018-10-30 15:26:51,2018-10-30 15:26:51,"0,315s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-30 15:26:51,2018-10-30 15:26:53,"2,364s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-30 15:26:53,2018-10-30 15:26:55,"1,135s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-30 15:26:55,2018-10-30 15:26:55,"0,871s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-30 15:26:55,2018-10-30 15:26:56,"0,201s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-30 15:26:56,2018-10-30 15:26:56,"0,827s",PASSED
+switchToWindowUrl,Chrome 69.0.3497.100,,2018-10-30 15:26:56,2018-10-30 15:27:01,"4,276s",PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-10-30 15:27:01,2018-10-30 15:27:03,"2,286s",PASSED
+selectOptionByValue,Chrome 69.0.3497.100,,2018-10-30 15:27:03,2018-10-30 15:27:04,"1,088s",PASSED
+Statement - verifyIsPortalOpen(),Chrome 69.0.3497.100,,2018-10-30 15:27:04,2018-10-30 15:27:04,"0,002s",PASSED
+Statement - Try,Chrome 69.0.3497.100,,2018-10-30 15:27:04,2018-10-30 15:27:24,"20,107s",PASSED
+setText,Chrome 69.0.3497.100,,2018-10-30 15:27:24,2018-10-30 15:27:25,"0,413s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-30 15:27:25,2018-10-30 15:27:25,"0,186s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-30 15:27:25,2018-10-30 15:27:26,"0,789s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-30 15:27:26,2018-10-30 15:27:26,"0,280s",PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-10-30 15:27:26,2018-10-30 15:27:30,"4,383s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-30 15:27:30,2018-10-30 15:27:31,"0,262s",PASSED
+waitForElementVisible,Chrome 69.0.3497.100,,2018-10-30 15:27:31,2018-10-30 15:27:31,"0,659s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-30 15:27:31,2018-10-30 15:27:31,"0,216s",PASSED
+"Statement - abrirServicio(G_Servicio, com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver())",Chrome 69.0.3497.100,,2018-10-30 15:27:31,2018-10-30 15:27:31,"0,031s",PASSED
+Statement - Try,Chrome 69.0.3497.100,,2018-10-30 15:27:31,2018-10-30 15:27:45,"13,481s",PASSED
+Statement - verifyIsGenesisCoberturaOpen(),Chrome 69.0.3497.100,,2018-10-30 15:27:45,2018-10-30 15:27:45,"0,001s",PASSED
+Statement - Try,Chrome 69.0.3497.100,,2018-10-30 15:27:45,2018-10-30 15:27:50,"5,329s",PASSED
+setText,Chrome 69.0.3497.100,,2018-10-30 15:27:50,2018-10-30 15:27:51,"0,505s",PASSED
+Statement - selectOptionAutocomplete(),Chrome 69.0.3497.100,,2018-10-30 15:27:51,2018-10-30 15:27:51,"0,001s",PASSED
+Statement - java.lang.Thread.sleep(5000),Chrome 69.0.3497.100,,2018-10-30 15:27:51,2018-10-30 15:27:56,"5,001s",PASSED
+Statement - to = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Servicio/autocomplete_input),Chrome 69.0.3497.100,,2018-10-30 15:27:56,2018-10-30 15:27:56,"0,013s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-30 15:27:56,2018-10-30 15:27:56,"0,508s",FAILED

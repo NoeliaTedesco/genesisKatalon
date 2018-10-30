@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test Buscar Farmacias - Domicilio</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd78c8b2-7fc0-42ab-aab2-c9729df0d01f</testCaseGuid>
+   <variable>
+      <defaultValue>'60609272102'</defaultValue>
+      <description></description>
+      <id>688d02d7-d309-4bfa-880e-e88fc195ab2a</id>
+      <masked>false</masked>
+      <name>nroSocio</name>
+   </variable>
+   <variable>
+      <defaultValue>'13908'</defaultValue>
+      <description></description>
+      <id>ae747b81-d1f6-4838-b04a-b7f07fec92ae</id>
+      <masked>false</masked>
+      <name>busqMedicamento</name>
+   </variable>
+   <variable>
+      <defaultValue>'SANTA FE'</defaultValue>
+      <description></description>
+      <id>981d6189-55a5-4154-88b6-ffffdafe4183</id>
+      <masked>false</masked>
+      <name>provincia</name>
+   </variable>
+   <variable>
+      <defaultValue>'ROSARIO'</defaultValue>
+      <description></description>
+      <id>50b150b6-8c86-4dbd-9de7-94db6bb152a8</id>
+      <masked>false</masked>
+      <name>localidad</name>
+   </variable>
+   <variable>
+      <defaultValue>'ITALIA'</defaultValue>
+      <description></description>
+      <id>3a832dde-863c-4ad5-a85a-ec80d1bc427d</id>
+      <masked>false</masked>
+      <name>calle</name>
+   </variable>
+   <variable>
+      <defaultValue>'440'</defaultValue>
+      <description></description>
+      <id>c3763f2e-052e-42e4-acf2-c1763035b17e</id>
+      <masked>false</masked>
+      <name>altura</name>
+   </variable>
+   <variable>
+      <defaultValue>'ntedesco@sms-latam.com'</defaultValue>
+      <description></description>
+      <id>8d57b559-4638-4002-90f8-96b4ea7b6e06</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'ATENOLOL'</defaultValue>
+      <description></description>
+      <id>fe796a80-eb71-4368-9002-d3a71927baa5</id>
+      <masked>false</masked>
+      <name>busqMonodroga</name>
+   </variable>
+</TestCaseEntity>

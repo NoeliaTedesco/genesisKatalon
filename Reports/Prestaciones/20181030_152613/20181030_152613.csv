@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Prestaciones,,,2018-10-30 15:26:15,2018-10-30 15:26:18,"2,632s",INCOMPLETE
+,,,,,,
+Test Cases/Test Buscar Prestadores - Prestador,,,2018-10-30 15:26:16,2018-10-30 15:26:18,"1,899s",INCOMPLETE
+openBrowser,,,2018-10-30 15:26:18,2018-10-30 15:26:18,"0,468s",INCOMPLETE

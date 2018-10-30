@@ -6,8 +6,12 @@
    <elementGuidId>52e140c7-3953-4e7e-8622-be0a2979649b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'button' and @ref_element = 'Object Repository/Servicio/iframe_Genesis Cobertura']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@value='Monodroga']</value>
+         <value>//*[@id=&quot;medicamentosSelector&quot;]/div/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -64,7 +68,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='medicamentosSelector']/div/div/input</value>
+      <value>//*[@id=&quot;medicamentosSelector&quot;]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

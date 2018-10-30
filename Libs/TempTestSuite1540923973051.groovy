@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181026_115608\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181030_152613\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Prestaciones', suiteProperties, [new TestCaseBinding('Test Cases/Test Buscar Prestadores - Domicilio', 'Test Cases/Test Buscar Prestadores - Domicilio',  null), new TestCaseBinding('Test Cases/Test Buscar Prestadores - Zona', 'Test Cases/Test Buscar Prestadores - Zona',  null), new TestCaseBinding('Test Cases/Test Buscar Prestadores - Prestador', 'Test Cases/Test Buscar Prestadores - Prestador',  null)])
+TestCaseMain.startTestSuite('Test Suites/Prestaciones', suiteProperties, [new TestCaseBinding('Test Cases/Test Buscar Prestadores - Prestador', 'Test Cases/Test Buscar Prestadores - Prestador',  null)])
