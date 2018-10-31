@@ -53,7 +53,6 @@ WebUI.waitForElementVisible(findTestObject('Portal_Inicial/select_apiPortalDesar
 WebUI.selectOptionByValue(findTestObject('Portal_Inicial/select_apiPortalDesarrolloport'), GlobalVariable.G_OpcionPortal, 
     false)
 
-//REVISAR ESTAS FUNCIONES
 verifyIsPortalOpen()
 
 WebUI.setText(findTestObject('Portal_Home/input_BsquedaDetallada'), nroSocio)
@@ -74,17 +73,17 @@ WebUI.click(findTestObject('Portal_Home/a_Servicios'))
 
 abrirServicio(GlobalVariable.G_Servicio, Driver.getWebDriver())
 
-Thread.sleep(8000)
+WebUI.delay(20)
 
 verifyIsGenesisCoberturaOpen()
 
 WebUI.click(findTestObject('Servicio/div_Medicamento'))
 
-Thread.sleep(3000)
+WebUI.delay(20)
 
 WebUI.setText(findTestObject('Servicio/input_Medicamento'), busqMedicamento)
 
-Thread.sleep(3000)
+WebUI.delay(20)
 
 selectOptionAutocomplete()
 
@@ -94,19 +93,19 @@ WebUI.waitForElementClickable(findTestObject("Servicio/select_FilialZona_Med"), 
 
 WebUI.selectOptionByValue(findTestObject('Servicio/select_FilialZona_Med'), filial, false)
 
-Thread.sleep(2000)
+WebUI.delay(10)
 
 WebUI.selectOptionByValue(findTestObject('Servicio/select_ZonaMed'), zona, false)
 
-Thread.sleep(2000)
+WebUI.delay(10)
 
 WebUI.selectOptionByValue(findTestObject('Servicio/select_SubZonaMed'), subzona, false)
 
-Thread.sleep(1000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/btnBuscar'))
 
-WebUI.waitForElementPresent(findTestObject('Servicio/div_Listado'), 20)
+WebUI.waitForElementPresent(findTestObject('Servicio/div_Listado'), 60)
 
 WebUI.click(findTestObject('Servicio/check_ResultadoListado'))
 
@@ -114,11 +113,9 @@ WebUI.click(findTestObject('Servicio/btnRegistrar'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarZona'), 20)
 
-Thread.sleep(3000)
-
 WebUI.click(findTestObject('Servicio/btnCerrarZona'))
 
-Thread.sleep(2000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/btnEnviarCorreo'))
 
@@ -128,7 +125,7 @@ WebUI.sendKeys(findTestObject('Servicio/input_Correo'), email)
 
 WebUI.click(findTestObject('Servicio/btnEnviarZona'))
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.waitForElementClickable(findTestObject('Servicio/btnImprimir'), 20)
 
@@ -136,13 +133,11 @@ WebUI.click(findTestObject('Servicio/btnImprimir'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarPopUpPdfZona'), 20)
 
-Thread.sleep(3000)
-
 WebUI.click(findTestObject('Servicio/btnCerrarPopUpPdfZona'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/div_InfoPrestacion'), 20)
 
-Thread.sleep(2000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/div_InfoPrestacion'))
 
@@ -168,19 +163,21 @@ void verificarCargaInformacion() {
 
 void verifyIsPortalOpen() {
     try {
-        Thread.sleep(20000)
-
-        WebUI.waitForElementClickable(findTestObject('Portal_Home/input_BsquedaDetallada'), 20)
+        WebUI.waitForElementClickable(findTestObject('Portal_Home/consolaRecepcion'), 20)
+		WebUI.click(findTestObject('Portal_Home/consolaRecepcion'))
     }
     catch (Exception e) {
         reloadPortal()
     } 
 }
 
+void reloadPortal() {
+        WebUI.refresh()
+		verifyIsPortalOpen()
+}
+
 void verifyIsGenesisCoberturaOpen() {
     try {
-        Thread.sleep(3000)
-
         WebUI.waitForElementClickable(findTestObject('Servicio/input_Prestaciones'), 20)
     }
     catch (Exception e) {
@@ -189,17 +186,9 @@ void verifyIsGenesisCoberturaOpen() {
 }
 
 
-void reloadPortal() {
-        WebUI.refresh()
-
-}
-
 void selectOptionAutocomplete() {
-    Thread.sleep(5000)
-
-    TestObject to = findTestObject('Servicio/autocomplete_Medicamento')
-
-    WebUI.click(to)
+    WebUI.delay(20)
+    WebUI.click(findTestObject('Servicio/autocomplete_Medicamento'))
 }
 
 boolean abrirServicio(String NombreServicio, WebDriver driver) {

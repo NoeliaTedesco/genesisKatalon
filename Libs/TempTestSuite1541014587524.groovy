@@ -23,14 +23,14 @@ suiteProperties.put('name', 'Prestaciones')
 suiteProperties.put('description', '')
  
 
-DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
-DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181030_152613\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181031_163622\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Prestaciones', suiteProperties, [new TestCaseBinding('Test Cases/Test Buscar Prestadores - Prestador', 'Test Cases/Test Buscar Prestadores - Prestador',  null)])
+TestCaseMain.startTestSuite('Test Suites/Prestaciones', suiteProperties, [new TestCaseBinding('Test Cases/Test Buscar Prestadores - Domicilio', 'Test Cases/Test Buscar Prestadores - Domicilio',  null), new TestCaseBinding('Test Cases/Test Buscar Prestadores - Zona', 'Test Cases/Test Buscar Prestadores - Zona',  null), new TestCaseBinding('Test Cases/Test Buscar Prestadores - Prestador', 'Test Cases/Test Buscar Prestadores - Prestador',  null)])

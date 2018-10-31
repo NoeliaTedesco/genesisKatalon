@@ -53,7 +53,6 @@ WebUI.waitForElementVisible(findTestObject('Portal_Inicial/select_apiPortalDesar
 WebUI.selectOptionByValue(findTestObject('Portal_Inicial/select_apiPortalDesarrolloport'), GlobalVariable.G_OpcionPortal, 
     false)
 
-//REVISAR ESTAS FUNCIONES
 verifyIsPortalOpen()
 
 WebUI.setText(findTestObject('Portal_Home/input_BsquedaDetallada'), nroSocio)
@@ -76,11 +75,11 @@ abrirServicio(GlobalVariable.G_Servicio, Driver.getWebDriver())
 
 verifyIsGenesisCoberturaOpen()
 
-Thread.sleep(8000)
+WebUI.delay(20)
 
 WebUI.click(findTestObject('Servicio/div_Medicamento'))
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.setText(findTestObject('Servicio/input_Medicamento'), busqMedicamento)
 
@@ -94,53 +93,53 @@ WebUI.selectOptionByValue(findTestObject('Servicio/select_Provincia'), provincia
 
 WebUI.sendKeys(findTestObject('Servicio/input_Localidad'), localidad)
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.sendKeys(findTestObject('Servicio/input_Localidad'), Keys.chord(Keys.TAB))
 
 WebUI.sendKeys(findTestObject('Servicio/input_Calle'), calle)
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.sendKeys(findTestObject('Servicio/input_Calle'), Keys.chord(Keys.TAB))
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.sendKeys(findTestObject('Servicio/input_Altura'), altura)
 
 WebUI.click(findTestObject('Servicio/btnSeleccionar'))
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Servicio/btnAgregadMed'))
 
-Thread.sleep(2000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/btnMonodroga'))
 
 WebUI.waitForElementPresent(findTestObject('Servicio/input_Monodroga'), 20)
 
-Thread.sleep(5000)
+WebUI.delay(20)
 
 WebUI.sendKeys(findTestObject('Servicio/input_Monodroga'), busqMonodroga)
 
-Thread.sleep(2000)
+WebUI.delay(10)
 
 selectOptionMonodroga()
 
-Thread.sleep(15000)
+WebUI.delay(30)
 
 WebUI.click(findTestObject('Servicio/radBtn_PresentMonodroga'))
 
-Thread.sleep(15000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/btnSeleccionarMed'))
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/btnBuscar'))
 
-WebUI.waitForElementPresent(findTestObject('Servicio/div_Listado'), 20)
+WebUI.waitForElementPresent(findTestObject('Servicio/div_Listado'), 60)
 
 WebUI.click(findTestObject('Servicio/check_ResultadoListado'))
 
@@ -148,7 +147,7 @@ WebUI.click(findTestObject('Servicio/btnRegistrar'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarMed'), 20)
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/btnCerrarMed'), FailureHandling.OPTIONAL)
 
@@ -160,7 +159,7 @@ WebUI.sendKeys(findTestObject('Servicio/input_Correo'), email)
 
 WebUI.click(findTestObject('Servicio/btnEnviarZona'))
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.waitForElementClickable(findTestObject('Servicio/btnImprimir'), 20)
 
@@ -168,13 +167,13 @@ WebUI.click(findTestObject('Servicio/btnImprimir'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/btnCerrarPopUpMed'), 20)
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/btnCerrarPopUpMed'))
 
 WebUI.waitForElementClickable(findTestObject('Servicio/div_InfoPrestacion'), 20)
 
-Thread.sleep(3000)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Servicio/div_InfoPrestacion'))
 
@@ -190,8 +189,7 @@ tearDown()
 
 void verificarCargaInformacion() {
     try {
-        WebUI.waitForElementPresent(findTestObject('Servicio/form_InformacionPrestacion'), 30)
-
+        WebUI.waitForElementPresent(findTestObject('Servicio/form_InformacionPrestacion'), 60)
         System.out.println('Se carga correctamente formulario de prestacion')
     }
     catch (Exception e) {
@@ -201,9 +199,7 @@ void verificarCargaInformacion() {
 
 void verifyIsGenesisCoberturaOpen() {
     try {
-        Thread.sleep(3000)
-
-        WebUI.waitForElementClickable(findTestObject('Servicio/input_Prestaciones'), 20)
+        WebUI.waitForElementClickable(findTestObject('Servicio/input_Prestaciones'), 60)
     }
     catch (Exception e) {
         System.out.println('Error al cargar Servicio Genesis Cobertura')
@@ -212,43 +208,26 @@ void verifyIsGenesisCoberturaOpen() {
 
 void verifyIsPortalOpen() {
     try {
-        Thread.sleep(20000)
-
-        WebUI.waitForElementClickable(findTestObject('Portal_Home/input_BsquedaDetallada'), 20)
+        WebUI.waitForElementClickable(findTestObject('Portal_Home/consolaRecepcion'), 60)
+		WebUI.click(findTestObject('Portal_Home/consolaRecepcion'))
     }
     catch (Exception e) {
         reloadPortal()
     } 
 }
 
-boolean isPortalLoad() {
-    try {
-        WebUI.waitForElementClickable(findTestObject('Portal_Home/input_BsquedaDetallada'), 20)
-
-        return true
-    }
-    catch (Exception e) {
-        System.out.println('Portal no se cargo correctamente')
-
-        return false
-    } 
-}
-
 void reloadPortal() {
-    while (isPortalLoad = 'false') {
         WebUI.refresh()
-    }
+		verifyIsPortalOpen()
 }
 
 void selectOptionAutocomplete() {
-    Thread.sleep(5000)
-
+    WebUI.delay(20)
     WebUI.click(findTestObject('Servicio/autocomplete_Medicamento'))
 }
 
 void selectOptionMonodroga() {
-    Thread.sleep(5000)
-
+    WebUI.delay(20)
     WebUI.click(findTestObject('Servicio/autocomplete_Monodroga'))
 }
 

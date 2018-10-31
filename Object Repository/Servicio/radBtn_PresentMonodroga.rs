@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;DataTables_Table_0&quot;]/tbody/tr[1]/td[2]/input</value>
+         <value>//*[@id=&quot;DataTables_Table_0&quot;]/tbody/tr[2]/td[2]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>

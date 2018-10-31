@@ -53,7 +53,6 @@ WebUI.waitForElementVisible(findTestObject('Portal_Inicial/select_apiPortalDesar
 WebUI.selectOptionByValue(findTestObject('Portal_Inicial/select_apiPortalDesarrolloport'), GlobalVariable.G_OpcionPortal, 
     false)
 
-//REVISAR ESTAS FUNCIONES
 verifyIsPortalOpen()
 
 WebUI.setText(findTestObject('Portal_Home/input_BsquedaDetallada'), nroSocio)
@@ -102,7 +101,7 @@ Thread.sleep(1000)
 
 WebUI.click(findTestObject('Servicio/btnBuscar'))
 
-WebUI.waitForElementPresent(findTestObject('Servicio/div_Listado'), 20)
+WebUI.waitForElementPresent(findTestObject('Servicio/div_Listado'), 60)
 
 WebUI.click(findTestObject('Servicio/check_ResultadoListado'))
 
@@ -163,52 +162,34 @@ void verificarCargaInformacion() {
 }
 
 void verifyIsPortalOpen() {
-    try {
-        Thread.sleep(20000)
+	try {
+		WebUI.waitForElementClickable(findTestObject('Portal_Home/consolaRecepcion'), 60)
+		WebUI.click(findTestObject('Portal_Home/consolaRecepcion'))
+	}
+	catch (Exception e) {
+		reloadPortal()
+	}
+}
 
-        WebUI.waitForElementClickable(findTestObject('Portal_Home/input_BsquedaDetallada'), 20)
-    }
-    catch (Exception e) {
-        reloadPortal()
-    } 
+void reloadPortal() {
+		WebUI.refresh()
+		verifyIsPortalOpen()
 }
 
 void verifyIsGenesisCoberturaOpen() {
     try {
-        Thread.sleep(3000)
-
-        WebUI.waitForElementClickable(findTestObject('Servicio/input_Prestaciones'), 20)
+        WebUI.waitForElementClickable(findTestObject('Servicio/input_Prestaciones'), 60)
     }
     catch (Exception e) {
         System.out.println('Error al cargar Servicio Genesis Cobertura')
     } 
 }
 
-boolean isPortalLoad() {
-    try {
-        WebUI.waitForElementClickable(findTestObject('Portal_Home/input_BsquedaDetallada'), 20)
-
-        return true
-    }
-    catch (Exception e) {
-        System.out.println('Portal no se cargo correctamente')
-
-        return false
-    } 
-}
-
-void reloadPortal() {
-    while (isPortalLoad = 'false') {
-        WebUI.refresh()
-    }
-}
 
 void selectOptionAutocomplete() {
-    Thread.sleep(5000)
-
-    TestObject to = findTestObject('Servicio/autocomplete_input')
-
-    WebUI.click(to)
+	WebUI.waitForElementClickable(findTestObject('Servicio/autocomplete_input'),60)
+	WebUI.delay(30)
+    WebUI.click(findTestObject('Servicio/autocomplete_input'))
 }
 
 boolean abrirServicio(String NombreServicio, WebDriver driver) {
