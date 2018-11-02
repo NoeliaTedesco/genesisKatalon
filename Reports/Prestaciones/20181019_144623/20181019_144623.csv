@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Prestaciones,,,2018-10-19 14:46:30,2018-10-19 14:46:31,"1,707s",FAILED
-,,,,,,
-Test Cases/Test Buscar Prestadores - Domicilio,,,2018-10-19 14:46:30,2018-10-19 14:46:31,"1,174s",FAILED
-navigateToUrl,,,2018-10-19 14:46:31,2018-10-19 14:46:31,"0,405s",FAILED

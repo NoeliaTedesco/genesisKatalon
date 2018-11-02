@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Medicamentos,Chrome 70.0.3538.77,,2018-10-31 13:45:21,2018-10-31 13:48:01,"2m - 39,539s",FAILED
+,,,,,,
+Test Cases/Test Buscar Farmacias - Domicilio,Chrome 70.0.3538.77,,2018-10-31 13:45:22,2018-10-31 13:46:49,"1m - 27,524s",FAILED
+openBrowser,Chrome 70.0.3538.77,,2018-10-31 13:45:23,2018-10-31 13:45:29,"5,485s",PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-31 13:45:29,2018-10-31 13:45:29,"0,686s",PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-10-31 13:45:29,2018-10-31 13:45:29,"0,178s",PASSED
+waitForElementClickable,Chrome 70.0.3538.77,,2018-10-31 13:45:29,2018-10-31 13:45:30,"0,194s",PASSED
+setText,Chrome 70.0.3538.77,,2018-10-31 13:45:30,2018-10-31 13:45:30,"0,294s",PASSED
+setText,Chrome 70.0.3538.77,,2018-10-31 13:45:30,2018-10-31 13:45:30,"0,270s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:45:30,2018-10-31 13:45:32,"1,920s",PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-10-31 13:45:32,2018-10-31 13:45:33,"1,016s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:45:33,2018-10-31 13:45:34,"0,473s",PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-10-31 13:45:34,2018-10-31 13:45:34,"0,175s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:45:34,2018-10-31 13:45:34,"0,593s",PASSED
+switchToWindowUrl,Chrome 70.0.3538.77,,2018-10-31 13:45:34,2018-10-31 13:45:35,"0,714s",PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-10-31 13:45:35,2018-10-31 13:45:36,"0,821s",PASSED
+selectOptionByValue,Chrome 70.0.3538.77,,2018-10-31 13:45:36,2018-10-31 13:45:37,"0,663s",PASSED
+Statement - verifyIsPortalOpen(),Chrome 70.0.3538.77,,2018-10-31 13:45:37,2018-10-31 13:45:37,"0,002s",PASSED
+Statement - Try,Chrome 70.0.3538.77,,2018-10-31 13:45:37,2018-10-31 13:46:17,"40,894s",PASSED
+setText,Chrome 70.0.3538.77,,2018-10-31 13:46:17,2018-10-31 13:46:49,"31,780s",FAILED
+,,,,,,
+Test Cases/Test Buscar Farmacias - Zona,Chrome 70.0.3538.77,,2018-10-31 13:46:49,2018-10-31 13:48:00,"1m - 10,431s",FAILED
+openBrowser,Chrome 70.0.3538.77,,2018-10-31 13:46:50,2018-10-31 13:46:53,"2,655s",PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-10-31 13:46:53,2018-10-31 13:46:53,"0,551s",PASSED
+maximizeWindow,Chrome 70.0.3538.77,,2018-10-31 13:46:53,2018-10-31 13:46:54,"0,174s",PASSED
+waitForElementClickable,Chrome 70.0.3538.77,,2018-10-31 13:46:54,2018-10-31 13:46:54,"0,100s",PASSED
+setText,Chrome 70.0.3538.77,,2018-10-31 13:46:54,2018-10-31 13:46:54,"0,278s",PASSED
+setText,Chrome 70.0.3538.77,,2018-10-31 13:46:54,2018-10-31 13:46:54,"0,289s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:46:54,2018-10-31 13:46:55,"0,768s",PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-10-31 13:46:55,2018-10-31 13:46:56,"0,984s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:46:56,2018-10-31 13:46:56,"0,438s",PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-10-31 13:46:56,2018-10-31 13:46:57,"0,146s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:46:57,2018-10-31 13:46:57,"0,574s",PASSED
+switchToWindowUrl,Chrome 70.0.3538.77,,2018-10-31 13:46:57,2018-10-31 13:46:58,"0,740s",PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-10-31 13:46:58,2018-10-31 13:46:59,"0,734s",PASSED
+selectOptionByValue,Chrome 70.0.3538.77,,2018-10-31 13:46:59,2018-10-31 13:46:59,"0,644s",PASSED
+Statement - verifyIsPortalOpen(),Chrome 70.0.3538.77,,2018-10-31 13:46:59,2018-10-31 13:46:59,"0,002s",PASSED
+Statement - Try,Chrome 70.0.3538.77,,2018-10-31 13:46:59,2018-10-31 13:47:19,"20,083s",PASSED
+setText,Chrome 70.0.3538.77,,2018-10-31 13:47:19,2018-10-31 13:47:20,"0,465s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:47:20,2018-10-31 13:47:20,"0,177s",PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-10-31 13:47:20,2018-10-31 13:47:21,"0,627s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:47:21,2018-10-31 13:47:21,"0,415s",PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-10-31 13:47:21,2018-10-31 13:47:22,"0,778s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:47:22,2018-10-31 13:47:22,"0,282s",PASSED
+waitForElementVisible,Chrome 70.0.3538.77,,2018-10-31 13:47:22,2018-10-31 13:47:22,"0,142s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:47:22,2018-10-31 13:47:23,"0,238s",PASSED
+"Statement - abrirServicio(G_Servicio, com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver())",Chrome 70.0.3538.77,,2018-10-31 13:47:23,2018-10-31 13:47:23,"0,021s",PASSED
+Statement - Try,Chrome 70.0.3538.77,,2018-10-31 13:47:23,2018-10-31 13:47:36,"13,261s",PASSED
+Statement - java.lang.Thread.sleep(8000),Chrome 70.0.3538.77,,2018-10-31 13:47:36,2018-10-31 13:47:44,"8,001s",PASSED
+Statement - verifyIsGenesisCoberturaOpen(),Chrome 70.0.3538.77,,2018-10-31 13:47:44,2018-10-31 13:47:44,"0,001s",PASSED
+Statement - Try,Chrome 70.0.3538.77,,2018-10-31 13:47:44,2018-10-31 13:47:47,"3,461s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:47:47,2018-10-31 13:47:48,"0,465s",PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 70.0.3538.77,,2018-10-31 13:47:48,2018-10-31 13:47:51,"3,002s",PASSED
+setText,Chrome 70.0.3538.77,,2018-10-31 13:47:51,2018-10-31 13:47:51,"0,349s",PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 70.0.3538.77,,2018-10-31 13:47:51,2018-10-31 13:47:54,"3,001s",PASSED
+Statement - selectOptionAutocomplete(),Chrome 70.0.3538.77,,2018-10-31 13:47:54,2018-10-31 13:47:54,"0,001s",PASSED
+Statement - java.lang.Thread.sleep(5000),Chrome 70.0.3538.77,,2018-10-31 13:47:54,2018-10-31 13:47:59,"5,002s",PASSED
+Statement - to = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Servicio/autocomplete_Medicamento),Chrome 70.0.3538.77,,2018-10-31 13:47:59,2018-10-31 13:47:59,"0,011s",PASSED
+click,Chrome 70.0.3538.77,,2018-10-31 13:47:59,2018-10-31 13:48:00,"0,557s",FAILED

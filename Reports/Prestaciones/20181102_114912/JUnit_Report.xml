@@ -1,0 +1,2707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prestaciones" time="400" tests="1" failures="2" errors="0">
+   <testsuite name="Prestaciones" tests="1" failures="2" errors="0" time="400" timestamp="2018-11-02 11:49:19" hostname="ntedesco - SMSL044.smsargentina.com.ar" id="Test Suites/Prestaciones">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_114912"/>
+         <property name="logFiles" value="C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_114912\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_114912\\1541170232338.png, C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_114912\\1541170295781.png, C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_114912\\1541170412945.png"/>
+         <property name="hostName" value="ntedesco - SMSL044.smsargentina.com.ar"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.252.2"/>
+         <property name="sessionId" value="efca69ebf61fbfe131d8d59afa50c00f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Buscar Prestadores - Domicilio" classname="Test Cases/Test Buscar Prestadores - Domicilio" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'SANTA FE' of object 'Object Repository/Servicio/select_Provincia'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: SANTA FE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539956596293.run(Script1539956596293.groovy:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541170157212.run(TempTestSuite1541170157212.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-02 11:49:20 - [TEST_CASE][FAILED] - Test Cases/Test Buscar Prestadores - Domicilio: Test Cases/Test Buscar Prestadores - Domicilio FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'SANTA FE' of object 'Object Repository/Servicio/select_Provincia'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: SANTA FE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539956596293.run(Script1539956596293.groovy:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541170157212.run(TempTestSuite1541170157212.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-02 11:49:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-02 11:49:26 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-02 11:49:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 11:49:27 - [MESSAGE][PASSED] - Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 11:49:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-02 11:49:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-02 11:49:27 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 11:49:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 11:49:27 - [TEST_STEP][PASSED] - setText: Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 11:49:27 - [MESSAGE][PASSED] - Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 11:49:27 - [TEST_STEP][PASSED] - setText: Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 11:49:27 - [MESSAGE][PASSED] - Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 11:49:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 11:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 11:49:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 11:49:29 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 11:49:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 11:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 11:49:30 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 11:49:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 11:49:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 11:49:30 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 11:49:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 11:49:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 11:49:31 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 11:49:32 - [MESSAGE][PASSED] - Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 11:49:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 11:49:33 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 11:49:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 11:49:34 - [MESSAGE][PASSED] - All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 11:49:34 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 11:49:34 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:49:34 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 11:49:40 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 11:49:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:49:41 - [TEST_STEP][PASSED] - setText: Text '60609272102' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 11:49:41 - [MESSAGE][PASSED] - Text '60609272102' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 11:49:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 11:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 11:49:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 11:49:42 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 11:49:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 11:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 11:49:43 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 11:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 11:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 11:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 11:49:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 11:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 11:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 11:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - abrirServicio(G_Servicio, com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.id("accordionMenuApi")): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - lstRegistro = element.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'treeMenuElement ellipsis_text')]")): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement Registro : lstRegistro): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - itemsServicio = Registro.findElements(org.openqa.selenium.By.xpath("//span[contains(@class, 'serviceSpanElement')]")): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement item : itemsServicio): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - item.click(): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - return true: null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - verifyIsGenesisCoberturaOpen(): null
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - Statement - Try: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:49:58 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:50:00 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:50:00 - [TEST_STEP][PASSED] - setText: Text '250102' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 11:50:00 - [MESSAGE][PASSED] - Text '250102' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 11:50:00 - [TEST_STEP][PASSED] - Statement - selectOptionAutocomplete(): null
+
+2018-11-02 11:50:00 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 11:50:00 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 11:50:00 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-11-02 11:50:30 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-02 11:50:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 11:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 11:50:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'A' are selected in object 'Object Repository/Servicio/select_Contexto' 
+
+2018-11-02 11:50:31 - [MESSAGE][PASSED] - All options with value 'A' are selected in object 'Object Repository/Servicio/select_Contexto' 
+
+2018-11-02 11:50:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEditarDomicilio' is clicked on
+
+2018-11-02 11:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEditarDomicilio' is clicked on
+
+2018-11-02 11:50:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/select_Provincia' is present
+
+2018-11-02 11:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/select_Provincia' is present
+
+2018-11-02 11:50:32 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value 'SANTA FE' of object 'Object Repository/Servicio/select_Provincia'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: SANTA FE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-11-02 11:50:32 - [MESSAGE][FAILED] - Unable to select option by value 'SANTA FE' of object 'Object Repository/Servicio/select_Provincia'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: SANTA FE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_114912\\1541170232338.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-02 11:49:20 - [TEST_CASE][FAILED] - Test Cases/Test Buscar Prestadores - Domicilio: Test Cases/Test Buscar Prestadores - Domicilio FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'SANTA FE' of object 'Object Repository/Servicio/select_Provincia'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: SANTA FE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539956596293.run(Script1539956596293.groovy:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541170157212.run(TempTestSuite1541170157212.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Buscar Prestadores - Zona" classname="Test Cases/Test Buscar Prestadores - Zona" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Servicio/autocomplete_input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 5ab63e58b71f1e496349f1c7ba459c13)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540395003759.selectOptionAutocomplete(Script1540395003759.groovy:192)
+	at Script1540395003759.run(Script1540395003759.groovy:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541170157212.run(TempTestSuite1541170157212.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-02 11:50:32 - [TEST_CASE][FAILED] - Test Cases/Test Buscar Prestadores - Zona: Test Cases/Test Buscar Prestadores - Zona FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Servicio/autocomplete_input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 5ab63e58b71f1e496349f1c7ba459c13)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540395003759.selectOptionAutocomplete(Script1540395003759.groovy:192)
+	at Script1540395003759.run(Script1540395003759.groovy:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541170157212.run(TempTestSuite1541170157212.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-02 11:50:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-02 11:50:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-02 11:50:35 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-02 11:50:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 11:50:36 - [MESSAGE][PASSED] - Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 11:50:36 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-02 11:50:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-02 11:50:36 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 11:50:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 11:50:36 - [TEST_STEP][PASSED] - setText: Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 11:50:37 - [MESSAGE][PASSED] - Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 11:50:37 - [TEST_STEP][PASSED] - setText: Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 11:50:37 - [MESSAGE][PASSED] - Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 11:50:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 11:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 11:50:38 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 11:50:39 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 11:50:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 11:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 11:50:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 11:50:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 11:50:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 11:50:39 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 11:50:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 11:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 11:50:40 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 11:50:41 - [MESSAGE][PASSED] - Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 11:50:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 11:50:41 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 11:50:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 11:50:42 - [MESSAGE][PASSED] - All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 11:50:42 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 11:50:42 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:50:42 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 11:50:48 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 11:50:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:50:48 - [TEST_STEP][PASSED] - setText: Text '60609272102 ' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 11:50:48 - [MESSAGE][PASSED] - Text '60609272102 ' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 11:50:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 11:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 11:50:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 11:50:49 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 11:50:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 11:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 11:50:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 11:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 11:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 11:50:51 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 11:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - Statement - abrirServicio(G_Servicio, com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.id("accordionMenuApi")): null
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - Statement - lstRegistro = element.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'treeMenuElement ellipsis_text')]")): null
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement Registro : lstRegistro): null
+
+2018-11-02 11:50:51 - [TEST_STEP][PASSED] - Statement - itemsServicio = Registro.findElements(org.openqa.selenium.By.xpath("//span[contains(@class, 'serviceSpanElement')]")): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement item : itemsServicio): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:50:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - item.click(): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - return true: null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - verifyIsGenesisCoberturaOpen(): null
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - Statement - Try: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:51:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:51:05 - [TEST_STEP][PASSED] - setText: Text '250102' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 11:51:05 - [MESSAGE][PASSED] - Text '250102' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 11:51:05 - [TEST_STEP][PASSED] - Statement - selectOptionAutocomplete(): null
+
+2018-11-02 11:51:05 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 11:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 11:51:05 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-11-02 11:51:35 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-02 11:51:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Servicio/autocomplete_input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 5ab63e58b71f1e496349f1c7ba459c13)
+
+2018-11-02 11:51:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Servicio/autocomplete_input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 5ab63e58b71f1e496349f1c7ba459c13)
+[[ATTACHMENT|C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_114912\\1541170295781.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-02 11:50:32 - [TEST_CASE][FAILED] - Test Cases/Test Buscar Prestadores - Zona: Test Cases/Test Buscar Prestadores - Zona FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Servicio/autocomplete_input' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ntedesco\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 5ab63e58b71f1e496349f1c7ba459c13)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540395003759.selectOptionAutocomplete(Script1540395003759.groovy:192)
+	at Script1540395003759.run(Script1540395003759.groovy:80)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541170157212.run(TempTestSuite1541170157212.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Buscar Prestadores - Prestador" classname="Test Cases/Test Buscar Prestadores - Prestador" status="PASSED">
+         <system-out><![CDATA[2018-11-02 11:51:36 - [TEST_CASE][PASSED] - Test Cases/Test Buscar Prestadores - Prestador: Test Cases/Test Buscar Prestadores - Prestador
+
+2018-11-02 11:51:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-02 11:51:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-02 11:51:39 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-02 11:51:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 11:51:40 - [MESSAGE][PASSED] - Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 11:51:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-02 11:51:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-02 11:51:40 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 11:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 11:51:40 - [TEST_STEP][PASSED] - setText: Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 11:51:40 - [MESSAGE][PASSED] - Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 11:51:40 - [TEST_STEP][PASSED] - setText: Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 11:51:41 - [MESSAGE][PASSED] - Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 11:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 11:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 11:51:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 11:51:42 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 11:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 11:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 11:51:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 11:51:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 11:51:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 11:51:43 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 11:51:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 11:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 11:51:44 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 11:51:55 - [MESSAGE][PASSED] - Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 11:51:55 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 11:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 11:51:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 11:51:58 - [MESSAGE][PASSED] - All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 11:51:58 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 11:51:58 - [TEST_STEP][FAILED] - Statement - Try: Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+
+2018-11-02 11:51:58 - [TEST_STEP][PASSED] - waitForElementClickable: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found
+
+2018-11-02 11:53:01 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found
+
+2018-11-02 11:53:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+
+2018-11-02 11:53:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+[[ATTACHMENT|C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_114912\\1541170412945.png]]
+
+2018-11-02 11:53:33 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-02 11:53:33 - [TEST_STEP][PASSED] - Statement - reloadPortal(): null
+
+2018-11-02 11:53:33 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-11-02 11:53:33 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-11-02 11:53:33 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 11:53:33 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:53:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 11:53:37 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 11:53:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 11:53:38 - [TEST_STEP][PASSED] - setText: Text '60609272102 ' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 11:53:38 - [MESSAGE][PASSED] - Text '60609272102 ' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 11:53:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 11:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 11:53:38 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 11:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 11:53:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 11:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 11:53:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 11:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 11:53:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 11:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 11:53:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 11:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 11:53:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 11:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - abrirServicio(G_Servicio, com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.id("accordionMenuApi")): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - lstRegistro = element.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'treeMenuElement ellipsis_text')]")): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement Registro : lstRegistro): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - itemsServicio = Registro.findElements(org.openqa.selenium.By.xpath("//span[contains(@class, 'serviceSpanElement')]")): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement item : itemsServicio): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:43 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:44 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:45 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - item.click(): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - return true: null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - verifyIsGenesisCoberturaOpen(): null
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - Statement - Try: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:53:55 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:53:57 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 11:53:57 - [TEST_STEP][PASSED] - setText: Text '110101' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 11:53:57 - [MESSAGE][PASSED] - Text '110101' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 11:53:57 - [TEST_STEP][PASSED] - Statement - selectOptionAutocomplete(): null
+
+2018-11-02 11:53:57 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 11:53:57 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 11:53:57 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-11-02 11:54:27 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-02 11:54:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 11:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 11:54:27 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-11-02 11:54:27 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-11-02 11:54:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/div_Prestador' is clicked on
+
+2018-11-02 11:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/div_Prestador' is clicked on
+
+2018-11-02 11:54:28 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/select_Filial_Prestador' is clickable
+
+2018-11-02 11:54:28 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/select_Filial_Prestador' is clickable
+
+2018-11-02 11:54:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '23' are selected in object 'Object Repository/Servicio/select_Filial_Prestador' 
+
+2018-11-02 11:54:28 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/Servicio/select_Filial_Prestador' 
+
+2018-11-02 11:54:28 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 11:54:48 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 11:54:48 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/select_Filial_Prestador' is clickable
+
+2018-11-02 11:54:48 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/select_Filial_Prestador' is clickable
+
+2018-11-02 11:54:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/input_Prestador' is clicked on
+
+2018-11-02 11:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/input_Prestador' is clicked on
+
+2018-11-02 11:54:49 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Servicio/input_Prestador' is cleared
+
+2018-11-02 11:54:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Servicio/input_Prestador' is cleared
+
+2018-11-02 11:54:49 - [TEST_STEP][PASSED] - sendKeys: Keys 'ARROYOS' sent to object: 'Object Repository/Servicio/input_Prestador'
+
+2018-11-02 11:54:49 - [MESSAGE][PASSED] - Keys 'ARROYOS' sent to object: 'Object Repository/Servicio/input_Prestador'
+
+2018-11-02 11:54:49 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/autocomplete_inputPrestador' is clickable
+
+2018-11-02 11:54:49 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/autocomplete_inputPrestador' is clickable
+
+2018-11-02 11:54:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/autocomplete_inputPrestador' is clicked on
+
+2018-11-02 11:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/autocomplete_inputPrestador' is clicked on
+
+2018-11-02 11:54:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnBuscar' is clicked on
+
+2018-11-02 11:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnBuscar' is clicked on
+
+2018-11-02 11:54:50 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/div_Listado' is present
+
+2018-11-02 11:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/div_Listado' is present
+
+2018-11-02 11:54:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/check_ResultadoListado' is clicked on
+
+2018-11-02 11:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/check_ResultadoListado' is clicked on
+
+2018-11-02 11:54:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnRegistrar' is clicked on
+
+2018-11-02 11:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnRegistrar' is clicked on
+
+2018-11-02 11:54:52 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnCerrarZona' is clickable
+
+2018-11-02 11:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnCerrarZona' is clickable
+
+2018-11-02 11:54:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnCerrarZona' is clicked on
+
+2018-11-02 11:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnCerrarZona' is clicked on
+
+2018-11-02 11:54:52 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 11:55:12 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 11:55:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEnviarCorreo' is clicked on
+
+2018-11-02 11:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEnviarCorreo' is clicked on
+
+2018-11-02 11:55:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/input_Correo' is present
+
+2018-11-02 11:55:13 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Correo' is present
+
+2018-11-02 11:55:13 - [TEST_STEP][PASSED] - sendKeys: Keys 'ntedesco@sms-latam.com' sent to object: 'Object Repository/Servicio/input_Correo'
+
+2018-11-02 11:55:13 - [MESSAGE][PASSED] - Keys 'ntedesco@sms-latam.com' sent to object: 'Object Repository/Servicio/input_Correo'
+
+2018-11-02 11:55:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEnviarZona' is clicked on
+
+2018-11-02 11:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEnviarZona' is clicked on
+
+2018-11-02 11:55:13 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 11:55:33 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 11:55:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnImprimir' is clickable
+
+2018-11-02 11:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnImprimir' is clickable
+
+2018-11-02 11:55:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnImprimir' is clicked on
+
+2018-11-02 11:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnImprimir' is clicked on
+
+2018-11-02 11:55:34 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnCerrarPopUpPdfPrestador' is clickable
+
+2018-11-02 11:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnCerrarPopUpPdfPrestador' is clickable
+
+2018-11-02 11:55:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnCerrarPopUpPdfZona' is clicked on
+
+2018-11-02 11:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnCerrarPopUpPdfZona' is clicked on
+
+2018-11-02 11:55:35 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/div_InfoPrestacion' is clickable
+
+2018-11-02 11:55:35 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/div_InfoPrestacion' is clickable
+
+2018-11-02 11:55:35 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 11:55:55 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 11:55:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/div_InfoPrestacion' is clicked on
+
+2018-11-02 11:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/div_InfoPrestacion' is clicked on
+
+2018-11-02 11:55:55 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/span_InfoPrestacion' is clickable
+
+2018-11-02 11:55:55 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/span_InfoPrestacion' is clickable
+
+2018-11-02 11:55:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/span_InfoPrestacion' is clicked on
+
+2018-11-02 11:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/span_InfoPrestacion' is clicked on
+
+2018-11-02 11:55:56 - [TEST_STEP][PASSED] - Statement - verificarCargaInformacion(): null
+
+2018-11-02 11:55:56 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 11:55:56 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/form_InformacionPrestacion' is present
+
+2018-11-02 11:55:59 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/form_InformacionPrestacion' is present
+
+2018-11-02 11:55:59 - [TEST_STEP][PASSED] - Statement - out.println("Se carga correctamente formulario de prestacion"): null
+
+2018-11-02 11:55:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnVolver' is clicked on
+
+2018-11-02 11:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnVolver' is clicked on
+
+2018-11-02 11:55:59 - [TEST_STEP][PASSED] - Statement - tearDown(): null
+
+2018-11-02 11:55:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 11:56:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-02 11:49:19 - [TEST_SUITE][FAILED] - Prestaciones: Test Cases/Test Buscar Prestadores - Domicilio FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'SANTA FE' of object 'Object Repository/Servicio/select_Provincia'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: SANTA FE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539956596293.run(Script1539956596293.groovy:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541170157212.run(TempTestSuite1541170157212.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-02 11:49:19 - [TEST_SUITE][FAILED] - Prestaciones: Test Cases/Test Buscar Prestadores - Domicilio FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to select option by value 'SANTA FE' of object 'Object Repository/Servicio/select_Provincia'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: SANTA FE
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SMSL044', ip: '192.168.252.2', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.selectOptionByValue(SelectOptionByValueKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByValueKeyword.execute(SelectOptionByValueKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue(WebUiBuiltInKeywords.groovy:1138)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByValue$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1539956596293.run(Script1539956596293.groovy:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541170157212.run(TempTestSuite1541170157212.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
