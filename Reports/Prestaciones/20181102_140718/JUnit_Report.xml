@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Prestaciones" time="652" tests="3" failures="0" errors="0">
+   <testsuite name="Prestaciones" tests="3" failures="0" errors="0" time="652" timestamp="2018-11-02 14:07:25" hostname="ntedesco - SMSL044.smsargentina.com.ar" id="Test Suites/Prestaciones">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_140718"/>
+         <property name="logFiles" value="C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_140718\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_140718\\1541178554808.png, C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_140718\\1541178650232.png"/>
+         <property name="hostName" value="ntedesco - SMSL044.smsargentina.com.ar"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.252.2"/>
+         <property name="sessionId" value="67376c998015ff6dce87849133263dcd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Buscar Prestadores - Domicilio" classname="Test Cases/Test Buscar Prestadores - Domicilio" status="PASSED">
+         <system-out><![CDATA[2018-11-02 14:07:25 - [TEST_CASE][PASSED] - Test Cases/Test Buscar Prestadores - Domicilio: Test Cases/Test Buscar Prestadores - Domicilio
+
+2018-11-02 14:07:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-02 14:07:32 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-02 14:07:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 14:07:33 - [MESSAGE][PASSED] - Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 14:07:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-02 14:07:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-02 14:07:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 14:07:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 14:07:34 - [TEST_STEP][PASSED] - setText: Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 14:07:34 - [MESSAGE][PASSED] - Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 14:07:34 - [TEST_STEP][PASSED] - setText: Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 14:07:34 - [MESSAGE][PASSED] - Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 14:07:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 14:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 14:07:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 14:07:36 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 14:07:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 14:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 14:07:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 14:07:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 14:07:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 14:07:37 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 14:07:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 14:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 14:07:38 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 14:07:38 - [MESSAGE][PASSED] - Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 14:07:38 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 14:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 14:07:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 14:07:40 - [MESSAGE][PASSED] - All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 14:07:40 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 14:07:40 - [TEST_STEP][FAILED] - Statement - Try: Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+
+2018-11-02 14:07:40 - [TEST_STEP][PASSED] - waitForElementClickable: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found
+
+2018-11-02 14:08:43 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found
+
+2018-11-02 14:08:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+
+2018-11-02 14:09:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+[[ATTACHMENT|C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_140718\\1541178554808.png]]
+
+2018-11-02 14:09:15 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-02 14:09:15 - [TEST_STEP][PASSED] - Statement - reloadPortal(): null
+
+2018-11-02 14:09:15 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-11-02 14:09:15 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-11-02 14:09:15 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 14:09:15 - [TEST_STEP][FAILED] - Statement - Try: Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+
+2018-11-02 14:09:15 - [TEST_STEP][PASSED] - waitForElementClickable: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found
+
+2018-11-02 14:10:19 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found
+
+2018-11-02 14:10:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+
+2018-11-02 14:10:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Portal_Home/consolaRecepcion' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Portal_Home/consolaRecepcion' located by 'By.xpath: //*[@id = 'suaConsolaRecepcionWidget']' not found)
+[[ATTACHMENT|C:\\Users\\ntedesco\\Katalon Studio\\GenesisCobertura\\Reports\\Prestaciones\\20181102_140718\\1541178650232.png]]
+
+2018-11-02 14:10:50 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-11-02 14:10:50 - [TEST_STEP][PASSED] - Statement - reloadPortal(): null
+
+2018-11-02 14:10:50 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-11-02 14:10:50 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-11-02 14:10:50 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 14:10:50 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:10:50 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 14:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 14:10:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:10:55 - [TEST_STEP][PASSED] - setText: Text '60609272102' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 14:10:55 - [MESSAGE][PASSED] - Text '60609272102' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 14:10:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 14:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 14:10:55 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 14:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 14:10:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 14:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 14:10:56 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 14:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 14:10:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 14:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 14:10:57 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 14:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 14:10:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 14:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - abrirServicio(G_Servicio, com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.id("accordionMenuApi")): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - lstRegistro = element.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'treeMenuElement ellipsis_text')]")): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement Registro : lstRegistro): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - itemsServicio = Registro.findElements(org.openqa.selenium.By.xpath("//span[contains(@class, 'serviceSpanElement')]")): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement item : itemsServicio): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:10:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:04 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:05 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:06 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:07 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:08 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:09 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - item.click(): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - return true: null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - verifyIsGenesisCoberturaOpen(): null
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - Statement - Try: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:11:10 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:11:12 - [TEST_STEP][PASSED] - setText: Text '250102' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 14:11:13 - [MESSAGE][PASSED] - Text '250102' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 14:11:13 - [TEST_STEP][PASSED] - Statement - selectOptionAutocomplete(): null
+
+2018-11-02 14:11:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 14:11:13 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 14:11:13 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-11-02 14:11:43 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-02 14:11:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 14:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 14:11:43 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'A' are selected in object 'Object Repository/Servicio/select_Contexto' 
+
+2018-11-02 14:11:44 - [MESSAGE][PASSED] - All options with value 'A' are selected in object 'Object Repository/Servicio/select_Contexto' 
+
+2018-11-02 14:11:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEditarDomicilio' is clicked on
+
+2018-11-02 14:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEditarDomicilio' is clicked on
+
+2018-11-02 14:11:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/select_Provincia' is present
+
+2018-11-02 14:11:44 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/select_Provincia' is present
+
+2018-11-02 14:11:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'SANTA FE' are selected in object 'Object Repository/Servicio/select_Provincia' 
+
+2018-11-02 14:11:45 - [MESSAGE][PASSED] - All options with value 'SANTA FE' are selected in object 'Object Repository/Servicio/select_Provincia' 
+
+2018-11-02 14:11:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'ROSARIO' sent to object: 'Object Repository/Servicio/input_Localidad'
+
+2018-11-02 14:11:45 - [MESSAGE][PASSED] - Keys 'ROSARIO' sent to object: 'Object Repository/Servicio/input_Localidad'
+
+2018-11-02 14:11:45 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 14:11:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 14:11:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Servicio/input_Localidad'
+
+2018-11-02 14:11:55 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Servicio/input_Localidad'
+
+2018-11-02 14:11:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'ITALIA' sent to object: 'Object Repository/Servicio/input_Calle'
+
+2018-11-02 14:11:55 - [MESSAGE][PASSED] - Keys 'ITALIA' sent to object: 'Object Repository/Servicio/input_Calle'
+
+2018-11-02 14:11:55 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 14:12:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 14:12:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Servicio/input_Calle'
+
+2018-11-02 14:12:06 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Servicio/input_Calle'
+
+2018-11-02 14:12:06 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 14:12:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 14:12:16 - [TEST_STEP][PASSED] - sendKeys: Keys '440' sent to object: 'Object Repository/Servicio/input_Altura'
+
+2018-11-02 14:12:16 - [MESSAGE][PASSED] - Keys '440' sent to object: 'Object Repository/Servicio/input_Altura'
+
+2018-11-02 14:12:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnSeleccionar' is clicked on
+
+2018-11-02 14:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnSeleccionar' is clicked on
+
+2018-11-02 14:12:16 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 14:12:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 14:12:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnBuscar' is clicked on
+
+2018-11-02 14:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnBuscar' is clicked on
+
+2018-11-02 14:12:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/div_Listado' is present
+
+2018-11-02 14:12:27 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/div_Listado' is present
+
+2018-11-02 14:12:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/check_ResultadoListado' is clicked on
+
+2018-11-02 14:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/check_ResultadoListado' is clicked on
+
+2018-11-02 14:12:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnRegistrar' is clicked on
+
+2018-11-02 14:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnRegistrar' is clicked on
+
+2018-11-02 14:12:38 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnCerrarDomicilio' is clickable
+
+2018-11-02 14:12:39 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnCerrarDomicilio' is clickable
+
+2018-11-02 14:12:39 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 14:12:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 14:12:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnCerrarDomicilio' is clicked on
+
+2018-11-02 14:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnCerrarDomicilio' is clicked on
+
+2018-11-02 14:12:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEnviarCorreo' is clicked on
+
+2018-11-02 14:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEnviarCorreo' is clicked on
+
+2018-11-02 14:12:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/input_Correo' is present
+
+2018-11-02 14:12:50 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Correo' is present
+
+2018-11-02 14:12:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'ntedesco@sms-latam.com' sent to object: 'Object Repository/Servicio/input_Correo'
+
+2018-11-02 14:12:50 - [MESSAGE][PASSED] - Keys 'ntedesco@sms-latam.com' sent to object: 'Object Repository/Servicio/input_Correo'
+
+2018-11-02 14:12:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEnviar' is clicked on
+
+2018-11-02 14:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEnviar' is clicked on
+
+2018-11-02 14:12:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 14:13:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 14:13:00 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnImprimir' is clickable
+
+2018-11-02 14:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnImprimir' is clickable
+
+2018-11-02 14:13:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnImprimir' is clicked on
+
+2018-11-02 14:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnImprimir' is clicked on
+
+2018-11-02 14:13:01 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnCerrarPopUpPdf' is clickable
+
+2018-11-02 14:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnCerrarPopUpPdf' is clickable
+
+2018-11-02 14:13:01 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 14:13:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 14:13:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnCerrarPopUpPdf' is clicked on
+
+2018-11-02 14:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnCerrarPopUpPdf' is clicked on
+
+2018-11-02 14:13:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/div_InfoPrestacion' is clickable
+
+2018-11-02 14:13:12 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/div_InfoPrestacion' is clickable
+
+2018-11-02 14:13:12 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-02 14:13:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-02 14:13:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/div_InfoPrestacion' is clicked on
+
+2018-11-02 14:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/div_InfoPrestacion' is clicked on
+
+2018-11-02 14:13:22 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/span_InfoPrestacion' is clickable
+
+2018-11-02 14:13:22 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/span_InfoPrestacion' is clickable
+
+2018-11-02 14:13:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/span_InfoPrestacion' is clicked on
+
+2018-11-02 14:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/span_InfoPrestacion' is clicked on
+
+2018-11-02 14:13:23 - [TEST_STEP][PASSED] - Statement - verificarCargaInformacion(): null
+
+2018-11-02 14:13:23 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 14:13:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/form_InformacionPrestacion' is present
+
+2018-11-02 14:13:29 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/form_InformacionPrestacion' is present
+
+2018-11-02 14:13:29 - [TEST_STEP][PASSED] - Statement - out.println("Se carga correctamente formulario de prestacion"): null
+
+2018-11-02 14:13:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnVolver' is clicked on
+
+2018-11-02 14:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnVolver' is clicked on
+
+2018-11-02 14:13:30 - [TEST_STEP][PASSED] - Statement - tearDown(): null
+
+2018-11-02 14:13:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 14:13:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Buscar Prestadores - Zona" classname="Test Cases/Test Buscar Prestadores - Zona" status="PASSED">
+         <system-out><![CDATA[2018-11-02 14:13:30 - [TEST_CASE][PASSED] - Test Cases/Test Buscar Prestadores - Zona: Test Cases/Test Buscar Prestadores - Zona
+
+2018-11-02 14:13:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-02 14:13:33 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-02 14:13:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 14:13:34 - [MESSAGE][PASSED] - Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 14:13:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-02 14:13:34 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-02 14:13:34 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 14:13:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 14:13:34 - [TEST_STEP][PASSED] - setText: Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 14:13:34 - [MESSAGE][PASSED] - Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 14:13:34 - [TEST_STEP][PASSED] - setText: Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 14:13:35 - [MESSAGE][PASSED] - Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 14:13:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 14:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 14:13:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 14:13:37 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 14:13:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 14:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 14:13:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 14:13:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 14:13:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 14:13:37 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 14:13:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 14:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 14:13:38 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 14:13:39 - [MESSAGE][PASSED] - Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 14:13:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 14:13:39 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 14:13:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 14:13:40 - [MESSAGE][PASSED] - All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 14:13:40 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 14:13:40 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:13:40 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 14:13:47 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 14:13:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:13:47 - [TEST_STEP][PASSED] - setText: Text '60609272102 ' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 14:13:48 - [MESSAGE][PASSED] - Text '60609272102 ' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 14:13:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 14:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 14:13:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 14:13:50 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 14:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 14:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 14:13:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 14:13:50 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 14:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 14:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 14:13:50 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 14:13:51 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 14:13:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 14:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 14:13:51 - [TEST_STEP][PASSED] - Statement - abrirServicio(G_Servicio, com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+2018-11-02 14:13:51 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 14:13:51 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.id("accordionMenuApi")): null
+
+2018-11-02 14:13:51 - [TEST_STEP][PASSED] - Statement - lstRegistro = element.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'treeMenuElement ellipsis_text')]")): null
+
+2018-11-02 14:13:51 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement Registro : lstRegistro): null
+
+2018-11-02 14:13:51 - [TEST_STEP][PASSED] - Statement - itemsServicio = Registro.findElements(org.openqa.selenium.By.xpath("//span[contains(@class, 'serviceSpanElement')]")): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement item : itemsServicio): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:13:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - item.click(): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - return true: null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - verifyIsGenesisCoberturaOpen(): null
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - Statement - Try: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:14:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:14:05 - [TEST_STEP][PASSED] - setText: Text '250102' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 14:14:05 - [MESSAGE][PASSED] - Text '250102' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 14:14:05 - [TEST_STEP][PASSED] - Statement - selectOptionAutocomplete(): null
+
+2018-11-02 14:14:05 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 14:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 14:14:05 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-11-02 14:14:35 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-02 14:14:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 14:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 14:14:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'A' are selected in object 'Object Repository/Servicio/select_Contexto' 
+
+2018-11-02 14:14:36 - [MESSAGE][PASSED] - All options with value 'A' are selected in object 'Object Repository/Servicio/select_Contexto' 
+
+2018-11-02 14:14:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/div_Zona' is clicked on
+
+2018-11-02 14:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/div_Zona' is clicked on
+
+2018-11-02 14:14:36 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/select_Filial_Zona' is clickable
+
+2018-11-02 14:14:36 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/select_Filial_Zona' is clickable
+
+2018-11-02 14:14:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '23' are selected in object 'Object Repository/Servicio/select_Filial_Zona' 
+
+2018-11-02 14:14:37 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/Servicio/select_Filial_Zona' 
+
+2018-11-02 14:14:37 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-02 14:14:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '20' are selected in object 'Object Repository/Servicio/select_Zona' 
+
+2018-11-02 14:14:39 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/Servicio/select_Zona' 
+
+2018-11-02 14:14:39 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-02 14:14:41 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '215-186' are selected in object 'Object Repository/Servicio/select_SubZona' 
+
+2018-11-02 14:14:41 - [MESSAGE][PASSED] - All options with value '215-186' are selected in object 'Object Repository/Servicio/select_SubZona' 
+
+2018-11-02 14:14:41 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(1000): null
+
+2018-11-02 14:14:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnBuscar' is clicked on
+
+2018-11-02 14:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnBuscar' is clicked on
+
+2018-11-02 14:14:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/div_Listado' is present
+
+2018-11-02 14:14:43 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/div_Listado' is present
+
+2018-11-02 14:14:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/check_ResultadoListado' is clicked on
+
+2018-11-02 14:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/check_ResultadoListado' is clicked on
+
+2018-11-02 14:15:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnRegistrar' is clicked on
+
+2018-11-02 14:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnRegistrar' is clicked on
+
+2018-11-02 14:15:01 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnCerrarZona' is clickable
+
+2018-11-02 14:15:01 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnCerrarZona' is clickable
+
+2018-11-02 14:15:01 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-11-02 14:15:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnCerrarZona' is clicked on
+
+2018-11-02 14:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnCerrarZona' is clicked on
+
+2018-11-02 14:15:04 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-02 14:15:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEnviarCorreo' is clicked on
+
+2018-11-02 14:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEnviarCorreo' is clicked on
+
+2018-11-02 14:15:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/input_Correo' is present
+
+2018-11-02 14:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Correo' is present
+
+2018-11-02 14:15:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'ntedesco@sms-latam.com' sent to object: 'Object Repository/Servicio/input_Correo'
+
+2018-11-02 14:15:07 - [MESSAGE][PASSED] - Keys 'ntedesco@sms-latam.com' sent to object: 'Object Repository/Servicio/input_Correo'
+
+2018-11-02 14:15:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEnviarZona' is clicked on
+
+2018-11-02 14:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEnviarZona' is clicked on
+
+2018-11-02 14:15:08 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-11-02 14:15:11 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnImprimir' is clickable
+
+2018-11-02 14:15:11 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnImprimir' is clickable
+
+2018-11-02 14:15:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnImprimir' is clicked on
+
+2018-11-02 14:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnImprimir' is clicked on
+
+2018-11-02 14:15:11 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnCerrarPopUpPdfZona' is clickable
+
+2018-11-02 14:15:11 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnCerrarPopUpPdfZona' is clickable
+
+2018-11-02 14:15:11 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-11-02 14:15:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnCerrarPopUpPdfZona' is clicked on
+
+2018-11-02 14:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnCerrarPopUpPdfZona' is clicked on
+
+2018-11-02 14:15:15 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/div_InfoPrestacion' is clickable
+
+2018-11-02 14:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/div_InfoPrestacion' is clickable
+
+2018-11-02 14:15:15 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(2000): null
+
+2018-11-02 14:15:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/div_InfoPrestacion' is clicked on
+
+2018-11-02 14:15:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/div_InfoPrestacion' is clicked on
+
+2018-11-02 14:15:17 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/span_InfoPrestacion' is clickable
+
+2018-11-02 14:15:18 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/span_InfoPrestacion' is clickable
+
+2018-11-02 14:15:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/span_InfoPrestacion' is clicked on
+
+2018-11-02 14:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/span_InfoPrestacion' is clicked on
+
+2018-11-02 14:15:18 - [TEST_STEP][PASSED] - Statement - verificarCargaInformacion(): null
+
+2018-11-02 14:15:18 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 14:15:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/form_InformacionPrestacion' is present
+
+2018-11-02 14:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/form_InformacionPrestacion' is present
+
+2018-11-02 14:15:24 - [TEST_STEP][PASSED] - Statement - out.println("Se carga correctamente formulario de prestacion"): null
+
+2018-11-02 14:15:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnVolver' is clicked on
+
+2018-11-02 14:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnVolver' is clicked on
+
+2018-11-02 14:15:24 - [TEST_STEP][PASSED] - Statement - tearDown(): null
+
+2018-11-02 14:15:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 14:15:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Buscar Prestadores - Prestador" classname="Test Cases/Test Buscar Prestadores - Prestador" status="PASSED">
+         <system-out><![CDATA[2018-11-02 14:15:25 - [TEST_CASE][PASSED] - Test Cases/Test Buscar Prestadores - Prestador: Test Cases/Test Buscar Prestadores - Prestador
+
+2018-11-02 14:15:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-02 14:15:28 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-02 14:15:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 14:15:29 - [MESSAGE][PASSED] - Navigate to 'https://test.intranet.osde/IV3/' successfully
+
+2018-11-02 14:15:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-02 14:15:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-02 14:15:29 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 14:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/Login_OSDE Intranet/coUsser' is clickable
+
+2018-11-02 14:15:29 - [TEST_STEP][PASSED] - setText: Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 14:15:30 - [MESSAGE][PASSED] - Text 'SS36739794' is set on object 'Object Repository/Login_OSDE Intranet/coUsser'
+
+2018-11-02 14:15:30 - [TEST_STEP][PASSED] - setText: Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 14:15:30 - [MESSAGE][PASSED] - Text 'intranet09' is set on object 'Object Repository/Login_OSDE Intranet/coPassword'
+
+2018-11-02 14:15:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 14:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_OSDE Intranet/btnIngresar' is clicked on
+
+2018-11-02 14:15:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 14:15:32 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is present
+
+2018-11-02 14:15:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 14:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/a_Mis Herramientas' is clicked on
+
+2018-11-02 14:15:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 14:15:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 14:15:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-02 14:15:33 - [MESSAGE][PASSED] - Object 'Object Repository/Home_OSDE Intranet V3/iframe_MIS HERRAMIENTAS_frmMis' is present
+
+2018-11-02 14:15:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 14:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Home_OSDE Intranet V3/td_Portal Corporativo' is clicked on
+
+2018-11-02 14:15:34 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 14:15:35 - [MESSAGE][PASSED] - Switched to window with url: 'http://tlnxwas30.intranet.osde:11780/portalFrontend/login.do'
+
+2018-11-02 14:15:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 14:15:35 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' is visible
+
+2018-11-02 14:15:35 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 14:15:36 - [MESSAGE][PASSED] - All options with value 'suaPortal' are selected in object 'Object Repository/Portal_Inicial/select_apiPortalDesarrolloport' 
+
+2018-11-02 14:15:36 - [TEST_STEP][PASSED] - Statement - verifyIsPortalOpen(): null
+
+2018-11-02 14:15:36 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:15:36 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 14:15:42 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/consolaRecepcion' is clickable
+
+2018-11-02 14:15:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/consolaRecepcion' is clicked on
+
+2018-11-02 14:15:42 - [TEST_STEP][PASSED] - setText: Text '60609272102 ' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 14:15:43 - [MESSAGE][PASSED] - Text '60609272102 ' is set on object 'Object Repository/Portal_Home/input_BsquedaDetallada'
+
+2018-11-02 14:15:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 14:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_BsquedaDetallada' is clicked on
+
+2018-11-02 14:15:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 14:15:44 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/div_suaCaracteristicasSujeto' is present
+
+2018-11-02 14:15:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 14:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/div_collapsableLeftContainer' is clicked on
+
+2018-11-02 14:15:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 14:15:45 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/btn_servicesTreeOpen' is visible
+
+2018-11-02 14:15:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 14:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/btn_servicesTreeOpen' is clicked on
+
+2018-11-02 14:15:45 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 14:15:45 - [MESSAGE][PASSED] - Object 'Object Repository/Portal_Home/a_Servicios' is visible
+
+2018-11-02 14:15:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 14:15:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Portal_Home/a_Servicios' is clicked on
+
+2018-11-02 14:15:45 - [TEST_STEP][PASSED] - Statement - abrirServicio(G_Servicio, com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()): null
+
+2018-11-02 14:15:45 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 14:15:45 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.id("accordionMenuApi")): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - lstRegistro = element.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'treeMenuElement ellipsis_text')]")): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement Registro : lstRegistro): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - itemsServicio = Registro.findElements(org.openqa.selenium.By.xpath("//span[contains(@class, 'serviceSpanElement')]")): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - For (org.openqa.selenium.WebElement item : itemsServicio): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:47 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:48 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:51 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:52 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:53 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:54 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:55 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:56 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:57 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:58 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:15:59 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:00 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:01 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:02 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:03 - [TEST_STEP][PASSED] - Statement - If (item.getText().equals(NombreServicio)): null
+
+2018-11-02 14:16:03 - [TEST_STEP][PASSED] - Statement - item.click(): null
+
+2018-11-02 14:16:03 - [TEST_STEP][PASSED] - Statement - return true: null
+
+2018-11-02 14:16:03 - [TEST_STEP][PASSED] - Statement - verifyIsGenesisCoberturaOpen(): null
+
+2018-11-02 14:16:03 - [TEST_STEP][PASSED] - Statement - Try: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:16:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Prestaciones' is clickable
+
+2018-11-02 14:16:05 - [TEST_STEP][PASSED] - setText: Text '110101' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 14:16:05 - [MESSAGE][PASSED] - Text '110101' is set on object 'Object Repository/Servicio/input_Prestaciones'
+
+2018-11-02 14:16:05 - [TEST_STEP][PASSED] - Statement - selectOptionAutocomplete(): null
+
+2018-11-02 14:16:05 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 14:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/autocomplete_input' is clickable
+
+2018-11-02 14:16:05 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2018-11-02 14:16:35 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2018-11-02 14:16:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 14:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/autocomplete_input' is clicked on
+
+2018-11-02 14:16:36 - [TEST_STEP][NOT_RUN] - selectOptionByValue: NOT_RUN: selectOptionByValue
+
+2018-11-02 14:16:36 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue
+
+2018-11-02 14:16:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/div_Prestador' is clicked on
+
+2018-11-02 14:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/div_Prestador' is clicked on
+
+2018-11-02 14:16:36 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/select_Filial_Prestador' is clickable
+
+2018-11-02 14:16:36 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/select_Filial_Prestador' is clickable
+
+2018-11-02 14:16:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '23' are selected in object 'Object Repository/Servicio/select_Filial_Prestador' 
+
+2018-11-02 14:16:37 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/Servicio/select_Filial_Prestador' 
+
+2018-11-02 14:16:37 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 14:16:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 14:16:57 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/select_Filial_Prestador' is clickable
+
+2018-11-02 14:16:57 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/select_Filial_Prestador' is clickable
+
+2018-11-02 14:16:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/input_Prestador' is clicked on
+
+2018-11-02 14:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/input_Prestador' is clicked on
+
+2018-11-02 14:16:57 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Servicio/input_Prestador' is cleared
+
+2018-11-02 14:16:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Servicio/input_Prestador' is cleared
+
+2018-11-02 14:16:57 - [TEST_STEP][PASSED] - sendKeys: Keys 'ARROYOS' sent to object: 'Object Repository/Servicio/input_Prestador'
+
+2018-11-02 14:16:57 - [MESSAGE][PASSED] - Keys 'ARROYOS' sent to object: 'Object Repository/Servicio/input_Prestador'
+
+2018-11-02 14:16:58 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/autocomplete_inputPrestador' is clickable
+
+2018-11-02 14:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/autocomplete_inputPrestador' is clickable
+
+2018-11-02 14:16:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/autocomplete_inputPrestador' is clicked on
+
+2018-11-02 14:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/autocomplete_inputPrestador' is clicked on
+
+2018-11-02 14:16:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnBuscar' is clicked on
+
+2018-11-02 14:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnBuscar' is clicked on
+
+2018-11-02 14:16:58 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/div_Listado' is present
+
+2018-11-02 14:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/div_Listado' is present
+
+2018-11-02 14:16:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/check_ResultadoListado' is clicked on
+
+2018-11-02 14:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/check_ResultadoListado' is clicked on
+
+2018-11-02 14:17:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnRegistrar' is clicked on
+
+2018-11-02 14:17:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnRegistrar' is clicked on
+
+2018-11-02 14:17:05 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnCerrarZona' is clickable
+
+2018-11-02 14:17:06 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnCerrarZona' is clickable
+
+2018-11-02 14:17:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnCerrarZona' is clicked on
+
+2018-11-02 14:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnCerrarZona' is clicked on
+
+2018-11-02 14:17:06 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 14:17:26 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 14:17:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEnviarCorreo' is clicked on
+
+2018-11-02 14:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEnviarCorreo' is clicked on
+
+2018-11-02 14:17:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/input_Correo' is present
+
+2018-11-02 14:17:26 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/input_Correo' is present
+
+2018-11-02 14:17:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'ntedesco@sms-latam.com' sent to object: 'Object Repository/Servicio/input_Correo'
+
+2018-11-02 14:17:27 - [MESSAGE][PASSED] - Keys 'ntedesco@sms-latam.com' sent to object: 'Object Repository/Servicio/input_Correo'
+
+2018-11-02 14:17:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnEnviarZona' is clicked on
+
+2018-11-02 14:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnEnviarZona' is clicked on
+
+2018-11-02 14:17:27 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 14:17:47 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 14:17:47 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnImprimir' is clickable
+
+2018-11-02 14:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnImprimir' is clickable
+
+2018-11-02 14:17:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnImprimir' is clicked on
+
+2018-11-02 14:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnImprimir' is clicked on
+
+2018-11-02 14:17:48 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/btnCerrarPopUpPdfPrestador' is clickable
+
+2018-11-02 14:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/btnCerrarPopUpPdfPrestador' is clickable
+
+2018-11-02 14:17:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnCerrarPopUpPdfZona' is clicked on
+
+2018-11-02 14:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnCerrarPopUpPdfZona' is clicked on
+
+2018-11-02 14:17:49 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/div_InfoPrestacion' is clickable
+
+2018-11-02 14:17:49 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/div_InfoPrestacion' is clickable
+
+2018-11-02 14:17:49 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2018-11-02 14:18:09 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2018-11-02 14:18:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/div_InfoPrestacion' is clicked on
+
+2018-11-02 14:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/div_InfoPrestacion' is clicked on
+
+2018-11-02 14:18:09 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Servicio/span_InfoPrestacion' is clickable
+
+2018-11-02 14:18:10 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/span_InfoPrestacion' is clickable
+
+2018-11-02 14:18:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/span_InfoPrestacion' is clicked on
+
+2018-11-02 14:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/span_InfoPrestacion' is clicked on
+
+2018-11-02 14:18:10 - [TEST_STEP][PASSED] - Statement - verificarCargaInformacion(): null
+
+2018-11-02 14:18:10 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-11-02 14:18:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Servicio/form_InformacionPrestacion' is present
+
+2018-11-02 14:18:16 - [MESSAGE][PASSED] - Object 'Object Repository/Servicio/form_InformacionPrestacion' is present
+
+2018-11-02 14:18:16 - [TEST_STEP][PASSED] - Statement - out.println("Se carga correctamente formulario de prestacion"): null
+
+2018-11-02 14:18:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Servicio/btnVolver' is clicked on
+
+2018-11-02 14:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Servicio/btnVolver' is clicked on
+
+2018-11-02 14:18:16 - [TEST_STEP][PASSED] - Statement - tearDown(): null
+
+2018-11-02 14:18:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-02 14:18:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-02 14:07:25 - [TEST_SUITE][PASSED] - Prestaciones: Test Cases/Test Buscar Prestadores - Prestador]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
